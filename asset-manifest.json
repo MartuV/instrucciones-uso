@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/instrucciones-uso/static/css/main.54aaaa94.css",
-    "main.js": "/instrucciones-uso/static/js/main.c0c0387b.js",
+    "main.css": "/instrucciones-uso/static/css/main.f81e4bcc.css",
+    "main.js": "/instrucciones-uso/static/js/main.3db80074.js",
+    "static/media/logohospi.jpg": "/instrucciones-uso/static/media/logohospi.8c2dd82f1d5fb6d452b7.jpg",
     "static/media/qr2.jpeg": "/instrucciones-uso/static/media/qr2.e347fdb8ae5c40742820.jpeg",
     "static/media/logo.svg": "/instrucciones-uso/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/instrucciones-uso/index.html",
-    "main.54aaaa94.css.map": "/instrucciones-uso/static/css/main.54aaaa94.css.map",
-    "main.c0c0387b.js.map": "/instrucciones-uso/static/js/main.c0c0387b.js.map"
+    "main.f81e4bcc.css.map": "/instrucciones-uso/static/css/main.f81e4bcc.css.map",
+    "main.3db80074.js.map": "/instrucciones-uso/static/js/main.3db80074.js.map"
   },
   "entrypoints": [
-    "static/css/main.54aaaa94.css",
-    "static/js/main.c0c0387b.js"
+    "static/css/main.f81e4bcc.css",
+    "static/js/main.3db80074.js"
   ]
 }
