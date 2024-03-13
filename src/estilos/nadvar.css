@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #512da8; /* Azul verdoso */
+    padding: 5px 8px; /* Reducimos aún más el padding interior del navbar */
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    color: white; /* Color del texto */
+    background-image: linear-gradient(45deg, transparent 50%, rgba(255,255,255,0.1) 50%), linear-gradient(-45deg, transparent 50%, rgba(255,255,255,0.1) 50%);
+    background-size: 20px 20px; /* Tamaño del patrón */
+}
+
+
+.logo-container {
+    display: flex; /* Utilizamos flexbox para organizar el logo y el texto */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+}
+
+.logo {
+    width: 40px; /* Reducimos el ancho del logo */
+    height: 60px; /* Fijamos la altura del logo */
+    object-fit: contain; /* Ajustamos la imagen dentro del contenedor */
+    border-radius: 5px; /* Opcional: aplicamos un borde redondeado al logo */
+}
+
+.texto {
+    margin-left: 8px; /* Reducimos el espacio entre el logo y el texto */
+    font-weight: 200; /* Hace que el texto sea más fino */
+    font-size: 12px; /* Reducimos aún más el tamaño del texto */
+}
+
+

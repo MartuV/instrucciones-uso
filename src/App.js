@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import MenuQR from './componentes/MenuQR'
+import MenuQR from './componentes/MenuQR';
+import Navbar from './componentes/Nadvar';
+import Footer from './componentes/Footer';
 
 function App() {
   return (
     <div className="App">
-     <MenuQR />
+    <Navbar />
+    <MenuQR />
+    <Footer />
     </div>
   );
 }

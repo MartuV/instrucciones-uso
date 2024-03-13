@@ -1,0 +1,31 @@
+.footer {
+    background-color: #c9c6cc; /* Color de fondo del pie de página */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interior del pie de página */
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos en los extremos */
+    box-shadow: inset -5px 0px 100px rgba(0, 0, 0, 0.3);
+    max-width: 100%; /* Limita el ancho del footer */
+    align-items: center; /* Alinea los elementos verticalmente */
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column; /* Establece la dirección del contenedor flexible en columna */
+    align-items: flex-start; /* Alinea los elementos al principio de la columna derecha */
+    margin-left: 20px; /* Agrega un margen izquierdo para separar la columna derecha de la izquierda */
+}
+
+.footer-left p,
+.footer-right p {
+    margin: 5px 0; /* Reducir el espacio vertical entre los párrafos */
+}
+
+.footer-right p:first-child {
+    margin-top: 0; /* Asegura que el primer elemento de la columna derecha no tenga margen superior */
+}
+
+
+
+
+
