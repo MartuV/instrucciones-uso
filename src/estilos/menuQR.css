@@ -1,0 +1,118 @@
+/* styles.css */
+
+h4 {
+    text-align: center;
+    color: #512da8;
+    margin: 5px 5px 5px 5px;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0; /* Eliminar el margen predeterminado */
+    font-family: Arial, sans-serif;
+    background-color: #dcdcdc;
+}
+  
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #dcdcdc;
+}
+
+.menuQr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 20px;
+}
+  
+.tarjeta {
+  width: 45%;
+  margin: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color:  #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+  max-width: 100%; /* Establece un ancho máximo en lugar de un alto máximo */
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+  .text-container {
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+}
+
+h2, h3 {
+    margin-bottom: 20px; /* Aumenta el margen inferior de los títulos */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+  margin-bottom: 5px; /* Reducir el margen inferior de h2 */
+  color: #1976D2;
+}
+
+h3 {
+  margin-top: 5px; /* Ajustar el margen superior de h3 */
+  color: #24a5ba;
+}
+
+.button {
+    display: block;
+    width: 95%;
+    margin: 20px auto; /* Ajusta el margen en lugar de usar auto en vertical */
+    padding: 15px; /* Aumenta el relleno para hacer el botón más grande */
+    text-align: center;
+    text-decoration: none;
+    background-color: #1976D2;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* Aumenta el tamaño de la fuente del botón */
+}
+
+  
+  .button:hover {
+    background-color: #2980b9;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .menuQr {
+        width: 90%;
+    }
+  
+    .tarjeta {
+        width: 100%;
+        margin: 20px auto; /* Centra la tarjeta horizontalmente */
+    }
+  
+    img {
+        height: auto;
+        max-height: 40vh;
+    }
+}
+
