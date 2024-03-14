@@ -1,21 +1,14 @@
 /* Estilos base */
 /* Estilos base */
 .navbar {
-    background-color: #1976D2; /* Azul verdoso */
+    background-color: #1565c0; /* Azul verdoso */
     padding: 5px 8px; /* Reducimos aún más el padding interior del navbar */
     display: flex;
     align-items: center; /* Centra verticalmente el contenido */
     color: white; /* Color del texto */
-    background-image: 
-        linear-gradient(45deg, transparent 50%, rgba(255,255,255,0.1) 50%), 
-        linear-gradient(-45deg, transparent 50%, rgba(255,255,255,0.1) 50%);
-    background-size: 20px 20px, 20px 20px; /* Tamaño del patrón */
-    background-position: 0 0, 10px 10px;
-    box-shadow: inset 0px 0px 10px rgba(21, 101, 192, 0.8); /* Sombra interior más oscura con color #1565c0 */
+    background-image: linear-gradient(45deg, transparent 50%, rgba(255,255,255,0.1) 50%), linear-gradient(-45deg, transparent 50%, rgba(255,255,255,0.1) 50%);
+    background-size: 20px 20px; /* Tamaño del patrón */
 }
-
-
-
 
 
 .logo-container {
