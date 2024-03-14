@@ -3,29 +3,23 @@
     color: white; /* Color del texto */
     padding: 10px 20px; /* Espaciado interior del pie de página */
     display: flex;
-    justify-content: space-between; /* Distribuye los elementos en los extremos */
-    box-shadow: inset -5px 0px 100px rgba(0, 0, 0, 0.3);
-    max-width: 100%; /* Limita el ancho del footer */
-    align-items: center; /* Alinea los elementos verticalmente */
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center; /* Alinea los elementos horizontalmente */
+    box-shadow: inset -5px 0px 100px rgba(0, 0, 0, 0.7); 
 }
 
-.footer-right {
-    display: flex;
-    flex-direction: column; /* Establece la dirección del contenedor flexible en columna */
-    align-items: flex-start; /* Alinea los elementos al principio de la columna derecha */
-    margin-left: 20px; /* Agrega un margen izquierdo para separar la columna derecha de la izquierda */
+.footer-content {
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-bottom: 0px; /* Espacio entre el contenido y el año */
 }
 
-.footer-left p,
-.footer-right p {
-    margin: 5px 0; /* Reducir el espacio vertical entre los párrafos */
+.footer-content p {
+    margin: 6; /* Elimina el margen predeterminado de los párrafos */
 }
 
-.footer-right p:first-child {
-    margin-top: 0; /* Asegura que el primer elemento de la columna derecha no tenga margen superior */
+.footer-year {
+    text-align: center; /* Centra el año */
 }
-
-
 
 
 

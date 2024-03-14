@@ -1,13 +1,15 @@
+/* Estilos base */
+/* Estilos base */
 .navbar {
-    background-color: #512da8; /* Azul verdoso */
+    background-color: #1976D2; /* Azul verdoso */
     padding: 5px 8px; /* Reducimos aún más el padding interior del navbar */
     display: flex;
     align-items: center; /* Centra verticalmente el contenido */
     color: white; /* Color del texto */
     background-image: linear-gradient(45deg, transparent 50%, rgba(255,255,255,0.1) 50%), linear-gradient(-45deg, transparent 50%, rgba(255,255,255,0.1) 50%);
     background-size: 20px 20px; /* Tamaño del patrón */
+    box-shadow: inset -5px 0px 100px rgba(19, 5, 126, 0.9); 
 }
-
 
 .logo-container {
     display: flex; /* Utilizamos flexbox para organizar el logo y el texto */
@@ -27,4 +29,40 @@
     font-size: 12px; /* Reducimos aún más el tamaño del texto */
 }
 
+/* Media query para dispositivos Android */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        padding: 3px 6px; /* Ajustamos el padding para dispositivos más pequeños */
+    }
 
+    .logo {
+        width: 30px; /* Reducimos el tamaño del logo */
+        height: 45px; /* Ajustamos la altura del logo */
+    }
+
+    .texto {
+        font-size: 10px; /* Reducimos el tamaño del texto aún más */
+    }
+}
+
+/* Media query para pantallas más grandes */
+@media only screen and (min-width: 1200px) {
+    body, html {
+        margin: 0; /* Elimina cualquier margen predeterminado en body y html */
+    }
+
+    .navbar {
+        padding: 10px 20px; /* Ajustamos el padding para pantallas más grandes */
+        width: 100%; /* Hacemos que el navbar ocupe todo el ancho */
+        margin: 0; /* Elimina cualquier margen predeterminado en el navbar */
+    }
+
+    .logo {
+        width: 50px; /* Aumentamos el tamaño del logo */
+        height: 75px; /* Ajustamos la altura del logo */
+    }
+
+    .texto {
+        font-size: 14px; /* Aumentamos el tamaño del texto para pantallas más grandes */
+    }
+}
