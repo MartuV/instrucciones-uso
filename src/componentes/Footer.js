@@ -6,11 +6,11 @@ function Footer() {
 
     return (
         <footer className="footer">
-            <div className="footer-content">
+            <div id="footer-content">
                 <p>Información Medicamentos: Nombre</p>
                 <p>Desarrollo Web: Tu Nombre</p>  
             </div>
-            <div className="footer-year">
+            <div id="footer-year">
                 <p>@ {year}</p>
             </div>
         </footer>

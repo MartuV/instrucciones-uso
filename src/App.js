@@ -5,45 +5,46 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MenuQR from './componentes/MenuQR';
 import Jarabes from './componentes/Jarabes';
 import Aerosoles from './componentes/Aerosoles';
-import Nadvar from './componentes/Nadvar';
+import Navbar from './componentes/Navbar'; 
 import Footer from './componentes/Footer';
+// Importa el Navbar
 
 function App() {
   return (
-    /* *basename porque lo tengo en ghpages */
+    /* basename porque lo tengo en ghpages */
     <Router basename="/instrucciones-uso">
-      <Routes>
-        <Route
-          exact
-          path="/"
-          element={
-            <>
-              <Nadvar />
-              <MenuQR />
-              <Footer />
-            </>
-          }
-        />
-        <Route
-          path="/jarabes"
-          element={
-            <>
-              <Jarabes />
-             
-            </>
-          }
-        />
-        <Route
-          path="/aerosoles"
-          element={
-            <>
-              <Aerosoles />
-              
-            </>
-          }
-        />
-      </Routes>
-    </Router>
+    <Routes>
+      <Route
+        exact
+        path="/"
+        element={
+          <>
+            <Navbar />
+            <MenuQR />
+            <Footer />
+          </>
+        }
+      />
+      <Route
+        path="/jarabes"
+        element={
+          <>
+            <Jarabes />
+            <Footer />
+          </>
+        }
+      />
+      <Route
+        path="/aerosoles"
+        element={
+          <>
+            <Aerosoles />
+            <Footer />
+          </>
+        }
+      />
+    </Routes>
+  </Router>
   );
 }
 

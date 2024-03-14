@@ -1,6 +1,8 @@
 import React from 'react';
 import '../estilos/menuQR.css';
+import '../App.css';
 import Tarjeta from './Tarjeta';
+
 
 function MenuQR() {
     const qrImages = [
@@ -9,7 +11,7 @@ function MenuQR() {
     ];
 
     return (
-        <div className="container"> {/* Contenedor para centrar */}
+        <div className="container">
             <div className="menuQr">
                 <h4>Haga click en el boton o scanee el codigo QR para ver las instrucciones de uso</h4>
                 {qrImages.map((item, index) => (

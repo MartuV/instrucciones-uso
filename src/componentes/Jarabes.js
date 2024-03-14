@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { generarPdf } from '../funciones/generarPdf'; 
-import '../estilos/indicaciones.css';
+import '../App.css';
 
 function Jarabes() {
     const [mostrarBoton, setMostrarBoton] = useState(true);

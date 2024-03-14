@@ -1,6 +1,6 @@
 import React from 'react';
 import logohospi from '../imagenes/logohospi.jpg'; // Ruta a tu logo
-import nadvar from '../estilos/nadvar.css';
+import '../estilos/navbar.css';
 
 function Navbar() {
     return (

@@ -6,19 +6,24 @@
     flex-direction: column; /* Coloca los elementos en columna */
     align-items: center; /* Alinea los elementos horizontalmente */
     box-shadow: inset -5px 0px 100px rgba(0, 0, 0, 0.7); 
+    margin-top: 20px;
+    
 }
 
-.footer-content {
+#footer-content {
     text-align: left; /* Alinea el texto a la izquierda */
     margin-bottom: 0px; /* Espacio entre el contenido y el año */
+    color: white;
+    
 }
 
-.footer-content p {
+#footer-content p {
     margin: 6; /* Elimina el margen predeterminado de los párrafos */
 }
 
-.footer-year {
+#footer-year {
     text-align: center; /* Centra el año */
+    color: white;
 }
 
 

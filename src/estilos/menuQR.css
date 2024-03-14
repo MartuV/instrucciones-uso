@@ -6,35 +6,25 @@ h4 {
     margin: 5px 5px 5px 5px;
   }
   
-  body {
+
+  .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    margin: 0; /* Eliminar el margen predeterminado */
+    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #dcdcdc;
-}
+  }
   
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #dcdcdc;
-}
-
-.menuQr {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 80%;
-  margin-top: 20px;
-}
+  .menuQr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 20px;
+  }
   
 .tarjeta {
   width: 45%;
@@ -70,42 +60,14 @@ h2, h3 {
     text-align: center;
 }
 
-h2 {
-  margin-bottom: 5px; /* Reducir el margen inferior de h2 */
-  color: #1976D2;
-}
+
 
 h3 {
   margin-top: 5px; /* Ajustar el margen superior de h3 */
   color: #24a5ba;
 }
 
-.button {
-  display: block;
-  width: 95%;
-  margin: 20px auto; /* Ajusta el margen en lugar de usar auto en vertical */
-  padding: 15px; /* Aumenta el relleno para hacer el botón más grande */
-  text-align: center;
-  text-decoration: none;
-  background-color: #1976D2;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra sutil */
-  transition: background-color 0.3s, box-shadow 0.3s; /* Agrega transición al color de fondo y a la sombra */
-  font-family: Arial, sans-serif;
-  font-size: 16px; /* Aumenta el tamaño de la fuente del botón */
-  font-weight: bold;
-}
-
-.button:hover {
-  background-color: #1565c0; /* Cambia el color de fondo al pasar el ratón */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Aumenta la sombra al pasar el ratón */
-}
-
-  
-  
-  
+ 
   @media only screen and (max-width: 600px) {
     .menuQr {
         width: 90%;

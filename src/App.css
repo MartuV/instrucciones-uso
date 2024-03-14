@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:#dcdcdc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+
+
+
+.button {
+  display: block;
+  width: 100%;
+  margin: 20px auto; /* Ajusta el margen en lugar de usar auto en vertical */
+  padding: 15px; /* Aumenta el relleno para hacer el botón más grande */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  background-color: #1976D2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Agrega transición al color de fondo y a la sombra */
+  font-family: Arial, sans-serif;
+  font-size: 16px; /* Aumenta el tamaño de la fuente del botón */
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #1565c0; /* Cambia el color de fondo al pasar el ratón */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Aumenta la sombra al pasar el ratón */
+}
+
+h2 {
+  margin-bottom: 5px; /* Reducir el margen inferior de h2 */
+  color: #1976D2;
+}
