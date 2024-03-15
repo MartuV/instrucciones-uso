@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
+
 function Tarjeta({ nombre, grupo, medicamentos, qrImage }) {
     const navigate = useNavigate();
 

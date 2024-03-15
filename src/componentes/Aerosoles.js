@@ -21,11 +21,11 @@ function Aerosoles() {
                 )}
             </div>
             <div id="contenedor-principal" className="indicaciones">   
-                <h2>Instrucciones de Uso - Aerocamaes y Aerosoles</h2>
-                <p><strong>Paso 1: Agita el frasco 🔄</strong> - Antes de comenzar, agita bien el frasco del medicamento.</p>
-                <p><strong>Paso 2: Agrega el agua 🚰</strong> - Utiliza una cuchara dosificadora o jeringa para medir la cantidad de agua indicada por tu médico.</p>
-                <p><strong>Paso 3: Vierte y Mezcla 🚰</strong> - Vierte el agua en el frasco y mezcla bien. Asegúrate de que todo esté bien combinado.</p>
-                <p><strong>Paso 4: Almacena y Dosifica 🧴</strong> - Guarda el medicamento según las indicaciones y usa la cuchara dosificadora o jeringa para tomar la dosis correcta.</p>
+                <h2>Instrucciones de Uso - PRUEBA 1</h2>
+                <p><strong>Paso 1: Agita el frasco 🔄</strong> - pppppppppppppppppppppppppppppp ppppppp ppppppppppppppp</p>
+                <p><strong>Paso 2: Agrega el agua 🚰</strong> - pppppppppppppppppppppppppppppp ppppppp ppppppppppppppp</p>
+                <p><strong>Paso 3: Vierte y Mezcla 🚰</strong> - pppppppppppppppppppppppppppppp ppppppp ppppppppppppppp</p>
+                <p><strong>Paso 4: Almacena y Dosifica 🧴</strong> - pppppppppppppppppppppppppppppp ppppppp ppppppppppppppp.</p>
             </div>
         </div>
     );
