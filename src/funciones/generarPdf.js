@@ -1,6 +1,6 @@
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
-import logoImg from '../imagenes/logohospi.jpg'; // Importa la imagen del logo
+import logoImg from '../imagenes/qr1.png'; // Importa la imagen del logo
 
 function generarPdf() {
     console.log("generando pdf");
@@ -30,7 +30,7 @@ function generarPdf() {
             altoRelativo = Math.min(altoRelativo, maximoAltoRelativo);
 
             // Calcular coordenadas para centrar la imagen con un pequeño margen superior
-            var margenSuperior = 5; // Ajusta el margen superior según tus necesidades
+            var margenSuperior = 1; // Ajusta el margen superior según tus necesidades
             var coordenadaX = (pdf.internal.pageSize.width - (pdf.internal.pageSize.width * porcentajeAncho)) / 2;
             var coordenadaY = margenSuperior;
 
@@ -38,7 +38,7 @@ function generarPdf() {
             pdf.addImage(canvas.toDataURL('image/jpeg'), 'JPEG', coordenadaX, coordenadaY, pdf.internal.pageSize.width * porcentajeAncho, altoRelativo);
 
             // Obtener la imagen del logo y agregarla al PDF
-            pdf.addImage(logoImg, 'PNG', 160, coordenadaY + altoRelativo + 10, 10, 10);
+            pdf.addImage(logoImg, 'PNG', 160, coordenadaY + altoRelativo + 20, 5, 5);
 
             // Cambiar el color del texto en el PDF
             pdf.setTextColor(0, 0, 0); // Texto negro
