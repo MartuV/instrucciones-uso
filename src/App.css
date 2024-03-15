@@ -1,59 +1,16 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 
 body {
+  box-sizing: border-box,;
   margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
   background-color:#dcdcdc;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
+  
   
 }
 
-
-
 .button {
   display: block;
-  width: 100%;
   margin: 20px auto; /* Ajusta el margen en lugar de usar auto en vertical */
   padding: 15px; /* Aumenta el relleno para hacer el botón más grande */
   cursor: pointer;
@@ -68,6 +25,18 @@ body {
   font-family: Arial, sans-serif;
   font-size: 16px; /* Aumenta el tamaño de la fuente del botón */
   font-weight: bold;
+}
+
+@media only screen and (max-width: 699px) {
+  .button {
+    width: 95%; /* Para pantallas pequeñas */
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .button {
+    width: 60%; /* Para pantallas grandes */
+  }
 }
 
 .button:hover {

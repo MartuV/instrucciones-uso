@@ -20,7 +20,7 @@ function generarPdf() {
             var altoOriginal = this.height;
 
             // Definir porcentaje relativo al ancho de la página
-            var porcentajeAncho = 0.70; // 70% del ancho de la página
+            var porcentajeAncho = 0.7; // 70% del ancho de la página
 
             // Calcular el alto relativo manteniendo la proporción original
             var altoRelativo = (porcentajeAncho * pdf.internal.pageSize.width * altoOriginal) / anchoOriginal;

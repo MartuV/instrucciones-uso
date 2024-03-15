@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { generarPdf } from '../funciones/generarPdf'; 
+import '../App.css';
 import '../estilos/indicaciones.css';
 
 

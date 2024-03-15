@@ -1,30 +1,27 @@
 .footer {
-    background-color: #c9c6cc; /* Color de fondo del pie de página */
-    color: white; /* Color del texto */
-    padding: 10px 20px; /* Espaciado interior del pie de página */
-    display: flex;
-    flex-direction: column; /* Coloca los elementos en columna */
-    align-items: center; /* Alinea los elementos horizontalmente */
-    box-shadow: inset -5px 0px 100px rgba(0, 0, 0, 0.7); 
-    margin-top: 20px;
-    
+  background-color: #c9c6cc; /* Color de fondo del pie de página */
+  color: white; /* Color del texto */
+  padding: 10px 20px; /* Espaciado interior del pie de página */
+  display: flex;
+  flex-direction: column; /* Coloca los elementos en columna */
+  align-items: center; /* Alinea los elementos horizontalmente */
+  box-shadow: inset -5px 0px 100px rgba(0, 0, 0, 0.7); 
+  margin-top: 20px;
+  
 }
 
 #footer-content {
-    text-align: left; /* Alinea el texto a la izquierda */
-    margin-bottom: 0px; /* Espacio entre el contenido y el año */
-    color: white;
-    
+  text-align: left; /* Alinea el texto a la izquierda */
+  margin-bottom: 0px; /* Espacio entre el contenido y el año */
+  color: white;
+  
 }
 
 #footer-content p {
-    margin: 6; /* Elimina el margen predeterminado de los párrafos */
+  margin: 6; /* Elimina el margen predeterminado de los párrafos */
 }
 
 #footer-year {
-    text-align: center; /* Centra el año */
-    color: white;
+  text-align: center; /* Centra el año */
+  color: white;
 }
-
-
-
