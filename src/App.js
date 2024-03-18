@@ -7,7 +7,7 @@ import Jarabes from './componentes/Jarabes';
 import Aerosoles from './componentes/Aerosoles';
 import Navbar from './componentes/Navbar'; 
 import Footer from './componentes/Footer';
-// Importa el Navbar
+
 
 function App() {
   return (

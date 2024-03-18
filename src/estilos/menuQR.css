@@ -1,8 +1,8 @@
 h4 {
   text-align: center;
   color: #1976D2;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 5px;
 }
 /*son tres div para la regla de los tercios y quede mejor centrado todo no use el body porque sino el navdar y el pie de pagina se cortaban*/
 .container {
@@ -37,14 +37,21 @@ h4 {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+ 
 }
 
 img {
-  width: 100%;
+  width: 85%;
   max-width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 20px 20px 0 0;
+  background-color: #f0f0f0;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+  margin-left: auto; /* Hace que el margen izquierdo sea automático */
+  margin-right: auto; /* Hace que el margen derecho sea automático */
+
 }
 
 .text-container {
@@ -69,6 +76,12 @@ h3 {
 
 
 @media only screen and (max-width: 700px) {
+
+  h4{
+    margin-top: 2px;
+    margin-bottom: 2px;
+   
+  }
   .menuQr {
     flex-direction: column;
     align-items: center;
@@ -82,5 +95,10 @@ h3 {
   .tarjeta {
     width: 90%; /* Ajustar el ancho máximo de las tarjetas */
     margin: 5vw 0; /* Ajustar el margen entre las tarjetas */
+  }
+
+  img{
+    width: 80%;
+    margin: 10px auto 0; /* Ajustar el margen vertical y hacer que los márgenes izquierdo y derecho sean iguales */
   }
 }

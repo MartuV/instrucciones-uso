@@ -21,6 +21,11 @@
   margin: 6; /* Elimina el margen predeterminado de los párrafos */
 }
 
+#footer-content a {
+  color: white; /* Color del texto de los enlaces */
+}
+
+
 #footer-year {
   text-align: center; /* Centra el año */
   color: white;
