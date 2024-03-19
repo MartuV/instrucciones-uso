@@ -6,13 +6,13 @@ import Tarjeta from './Tarjeta';
 function MenuQR() {
     // Datos de ejemplo de imágenes QR
     const qrImages = [
-        { nombre: 'Indicaciones 1', imagen: 'jarabe.png', grupo: 'Antibioticos Jarabe', medicamentos: 'Amoxicilina, Cefalexina' },
-        { nombre: 'Indicaciones 2', imagen: 'inhalador.png', grupo: 'Aerosoles y Aerocamaras', medicamentos: 'Salbutamol, Budesonide' },
+        { nombre: 'Instrucciones 1', imagen: 'jarabe.png', grupo: 'Antibióticos Jarabe', medicamentos: 'Amoxicilina, Cefalexina' },
+        { nombre: 'Instrucciones 2', imagen: 'inhalador.png', grupo: 'Aerosoles y Aerocámaras', medicamentos: 'Salbutamol, Budesonide' },
         
     ];
 
     return (
-        <div className="container"> {/* Contenedor principal */}
+        <div id="container-menu" className="container"> {/* Contenedor principal */}
          <h4>Haga click en el boton para ver las instrucciones de uso</h4>
             <div className="menuQr"> {/* Contenedor específico del menú QR */}
                

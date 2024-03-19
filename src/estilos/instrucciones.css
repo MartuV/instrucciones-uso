@@ -1,0 +1,75 @@
+#container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.button-container {
+    max-width: 100%;
+    width: 600px;
+    margin-top: 0 ; 
+    margin-bottom: 15px;
+}
+
+#botonDescargar {
+
+    background-color:  #24a5ba;
+}
+
+#container-instrucciones {
+    max-width: 100%;
+    width: 600px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.instructions-content {
+    margin: 0 20px;
+}
+
+.container p {
+    text-align: justify;
+    margin-bottom: 15px;
+    color: #1976D2;
+}
+
+strong {
+    color: #24a5ba;
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 700px) {
+
+    #container-principal {
+        margin-top: 70px;
+        
+      }
+
+    .button-container {
+       margin: 0px auto 0px auto; 
+    }
+
+    #container-instrucciones {
+        width: 85%;
+        margin: 10px 5px 0px 5px;
+        align-items: center; /* Centrar verticalmente los elementos */
+    }
+}
+
+ /* Media query para pantallas grandes */
+@media screen and (min-width: 769px) {
+    
+    .container {
+      margin-top: 0px; /* Altura del navbar en pantallas grandes */
+    }
+  }   

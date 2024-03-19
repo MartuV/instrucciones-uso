@@ -11,7 +11,29 @@ import Footer from './componentes/Footer';
 
 function App() {
   return (
-    /* basename porque lo tengo en ghpages */
+
+    <Router basename="/instrucciones-uso">
+
+         <Navbar />
+
+        <Routes basename="/instrucciones-uso">
+        
+          <Route exact path={"/"} element={<MenuQR />} />
+          <Route path={"/jarabes"} element={<Jarabes />} />
+          <Route path={"/aerosoles"} element={<Aerosoles />} />
+
+        </Routes>
+
+        <Footer />  
+
+    </Router>
+      
+    );
+
+
+
+
+    /* basename porque lo tengo en ghpages 
     <Router basename="/instrucciones-uso">
     <Routes>
       <Route
@@ -29,6 +51,7 @@ function App() {
         path="/jarabes"
         element={
           <>
+            <Navbar />
             <Jarabes />
             <Footer />
           </>
@@ -38,14 +61,22 @@ function App() {
         path="/aerosoles"
         element={
           <>
+            <Navbar /> 
             <Aerosoles />
             <Footer />
           </>
         }
       />
     </Routes>
+
+    <Routes>
+        <Route exact path={"/"} element={<Main />} />
+        <Route path={"/details/:id"} element={<Detail />} />
+        <Route path={"/user-form"} element={<UserForm />} />
+      </Routes>
+
   </Router>
-  );
+  );*/
 }
 
 export default App;

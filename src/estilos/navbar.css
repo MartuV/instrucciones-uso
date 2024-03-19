@@ -12,6 +12,7 @@
     left: 0; /* Asegura que la barra de navegación esté alineada a la izquierda */
     background-image: linear-gradient(45deg, transparent 50%, rgba(255,255,255,0.1) 50%), linear-gradient(-45deg, transparent 50%, rgba(255,255,255,0.1) 50%);
     background-size: 20px 20px; /* Tamaño del patrón */
+    z-index: 1000; 
     
 }
 
