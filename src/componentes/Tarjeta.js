@@ -6,7 +6,7 @@ function Tarjeta({ nombre, grupo, medicamentos, qrImage }) {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate(grupo === 'Antibioticos Jarabe' ? '/jarabes' : '/aerosoles');
+        navigate(grupo === 'Antibióticos Jarabe' ? '/jarabes' : '/aerosoles');
     };
 
     return (

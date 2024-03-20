@@ -5,25 +5,24 @@
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
+   
 }
-
 
 .button-container {
     max-width: 100%;
     width: 600px;
-    margin-top: 0 ; 
+    margin-top: 0;
     margin-bottom: 15px;
 }
 
 #botonDescargar {
-
     background-color:  #24a5ba;
 }
 
 #container-instrucciones {
     max-width: 100%;
     width: 600px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 100px auto;
     display: flex;
     flex-direction: column;
     background-color: #f0f0f0;
@@ -33,30 +32,72 @@
     position: relative;
 }
 
-.instructions-content {
-    margin: 0 20px;
+#container-instrucciones h2#titulo-instrucciones{
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
+
+.instructions-content {
+    margin: 5px auto;
+}
+
 
 .container p {
     text-align: justify;
-    margin-bottom: 15px;
     color: #1976D2;
 }
+
+.instructions-content p {
+    margin-bottom: 0;
+    padding: 0px;
+   
+}
+
+.instruction-icon {
+    width: 25px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 25px;
+    margin-right: 5px; /* Espaciado entre el ícono y el texto */
+    border-radius: 1px; /* Borde cuadrado para las imágenes */
+    background-color: #f0f0f0;
+}
+
+.instruction-icon1 {
+    display: block; /* Cambiar a bloque para alinear verticalmente */
+    margin: auto; /* Centrar horizontalmente */
+    width: 12%; /* Ajusta el tamaño de las imágenes según sea necesario */
+    border-radius: 5px; /* Borde cuadrado para las imágenes */
+    background-color: #f0f0f0;
+  }
+
+  .instructions-content p.important {
+    
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f0f0f0;
+    border-radius: 20px; /* Borde redondeado para el contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
 
 strong {
     color: #24a5ba;
 }
 
+
 /* Media query para pantallas pequeñas */
 @media screen and (max-width: 700px) {
-
     #container-principal {
         margin-top: 70px;
-        
-      }
+    }
 
     .button-container {
-       margin: 0px auto 0px auto; 
+        margin: 0px auto 0px auto; 
     }
 
     #container-instrucciones {
@@ -66,10 +107,13 @@ strong {
     }
 }
 
+
+
+
  /* Media query para pantallas grandes */
 @media screen and (min-width: 769px) {
     
-    .container {
-      margin-top: 0px; /* Altura del navbar en pantallas grandes */
+    #container-principal {
+        margin-top: 100px;
     }
   }   

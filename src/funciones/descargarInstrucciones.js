@@ -1,6 +1,6 @@
 import domtoimage from 'dom-to-image';
 
-function descargarInstrucciones() {
+function descargarInstrucciones(grupo) {
     // Guardar una referencia al botón
     var boton = document.getElementById('botonDescargar');
 
@@ -22,7 +22,7 @@ function descargarInstrucciones() {
             // Crear un enlace para descargar la imagen
             var link = document.createElement('a');
             link.href = window.URL.createObjectURL(blob);
-            link.download = 'instrucciones-uso.png'; // Nombre del archivo
+            link.download = `instrucciones-uso-${grupo}.png`; // Nombre del archivo
             document.body.appendChild(link);
 
             // Simular clic en el enlace para iniciar la descarga
