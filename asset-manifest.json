@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/instrucciones-uso/static/css/main.de38dee8.css",
-    "main.js": "/instrucciones-uso/static/js/main.7daa8a4b.js",
+    "main.css": "/instrucciones-uso/static/css/main.8a584132.css",
+    "main.js": "/instrucciones-uso/static/js/main.1e5f4dce.js",
+    "static/media/mascara.png": "/instrucciones-uso/static/media/mascara.892dadf12066023bea19.png",
     "static/media/logohospi.jpg": "/instrucciones-uso/static/media/logohospi.8c2dd82f1d5fb6d452b7.jpg",
+    "static/media/inhaladorParado.png": "/instrucciones-uso/static/media/inhaladorParado.277129f9add39adaf6d2.png",
     "static/media/jarabe.png": "/instrucciones-uso/static/media/jarabe.f3a710cbfc98e52bfbbb.png",
+    "static/media/inhaladorApretado.png": "/instrucciones-uso/static/media/inhaladorApretado.78d0ed5f57d78ac5804d.png",
+    "static/media/dosificar.png": "/instrucciones-uso/static/media/dosificar.fd5a875e9e0e3c942515.png",
     "static/media/inhalador.png": "/instrucciones-uso/static/media/inhalador.dd204d24b5f98a9c1855.png",
     "static/media/qr2.jpeg": "/instrucciones-uso/static/media/qr2.e347fdb8ae5c40742820.jpeg",
-    "static/media/logo.svg": "/instrucciones-uso/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/aerocamara.png": "/instrucciones-uso/static/media/aerocamara.b770436de0db31a9e47d.png",
     "index.html": "/instrucciones-uso/index.html",
-    "main.de38dee8.css.map": "/instrucciones-uso/static/css/main.de38dee8.css.map",
-    "main.7daa8a4b.js.map": "/instrucciones-uso/static/js/main.7daa8a4b.js.map"
+    "main.8a584132.css.map": "/instrucciones-uso/static/css/main.8a584132.css.map",
+    "main.1e5f4dce.js.map": "/instrucciones-uso/static/js/main.1e5f4dce.js.map"
   },
   "entrypoints": [
-    "static/css/main.de38dee8.css",
-    "static/js/main.7daa8a4b.js"
+    "static/css/main.8a584132.css",
+    "static/js/main.1e5f4dce.js"
   ]
 }
