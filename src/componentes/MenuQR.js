@@ -6,7 +6,7 @@ import Tarjeta from './Tarjeta';
 function MenuQR() {
     // Datos de ejemplo de imágenes QR
     const qrImages = [
-        { nombre: 'Instrucciones 1', imagen: 'jarabe.png', grupo: 'Antibióticos Jarabe', medicamentos: 'Amoxicilina, Cefalexina' },
+        { nombre: 'Instrucciones 1', imagen: 'jarabe.png', grupo: 'Antibióticos Jarabe - Polvo para Reconstituir', medicamentos: 'Amoxicilina, Cefalexina' },
         { nombre: 'Instrucciones 2', imagen: 'inhalador.png', grupo: 'Aerosoles y Aerocámaras', medicamentos: 'Salbutamol, Budesonide' },
         
     ];

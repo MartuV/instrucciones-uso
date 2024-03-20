@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import { descargarInstrucciones } from '../funciones/descargarInstrucciones'; 
+import agitar from '../imagenes/agitar.png';
+
 import inhaladorParado from '../imagenes/inhaladorParado.png';
 import mascara from '../imagenes/mascara.png';
 import aerocamara from '../imagenes/aerocamara.png';
@@ -30,7 +32,7 @@ function Aerosoles() {
             <div id="container-instrucciones" className="instrucciones">   
                 <h2 id="titulo-instrucciones">Instrucciones de Uso: Aerosoles y Aerocámaras</h2>
                 <div className="instructions-content">
-                    <p><strong>Paso 1:</strong> 🔄 Retire la tapa del aerosol y Agítelo.</p>
+                    <p><strong>Paso 1:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /> Retire la tapa del aerosol y Agítelo.</p>
 
                     <p><strong>Paso 2:</strong> <img src={inhaladorParado} alt="inhalador parado" className="instruction-icon" /> Con el aerosol hacia arriba, inserte la boquilla en la aerocámara.</p>
 
@@ -47,7 +49,8 @@ function Aerosoles() {
                     <p><strong>Paso 8:</strong> 🚫👶 Guardar el aerosol en un lugar fresco y seco y alejado del alcance de los niños.</p>
                     <br/>
                     <p className="important">
-                        <img src={aerocamara} alt="aerocamara" className="instruction-icon1" /><strong>🖐️IMPORTANTE!: LAVE </strong>la aerocámara cada 3 semanas, desármela sin retirar la válvula del portaválvula y colóquela por 15 minutos en un recipiente con agua tibia (<span>🚫<strong>NO</strong> caliente</span>) y unas gotas de detergente. <strong>ENJUAGAR?????</strong> con agua tibia???? y dejar <strong>SECAR</strong> sobre una servilleta de papel. 🚫🧼 <strong>NO</strong> refregar ni secar con paño.</p>
+                    <img src={aerocamara} alt="aerocamara" className="instruction-icon1" />
+                    <strong id="manito">🖐️IMPORTANTE!:</strong><strong>LAVE </strong>la aerocámara cada 3 semanas, desármela sin retirar la válvula del portaválvula y colóquela por 15 minutos en un recipiente con agua tibia (<span>🚫<strong>NO</strong> caliente</span>) y unas gotas de detergente. <strong>ENJUAGAR?????</strong> con agua tibia???? y dejar <strong>SECAR</strong> sobre una servilleta de papel. 🚫🧼 <strong>NO</strong> refregar ni secar con paño.</p>
                 </div>
             </div>
         </div>

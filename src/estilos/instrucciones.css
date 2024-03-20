@@ -68,10 +68,16 @@
 
 .instruction-icon1 {
     display: block; /* Cambiar a bloque para alinear verticalmente */
-    margin: auto; /* Centrar horizontalmente */
+    margin: 0 auto 5px auto; /* Centrar horizontalmente */
     width: 12%; /* Ajusta el tamaño de las imágenes según sea necesario */
     border-radius: 5px; /* Borde cuadrado para las imágenes */
     background-color: #f0f0f0;
+  }
+
+  #manito {
+    display: block; 
+    margin: auto;
+    text-align: center;
   }
 
   .instructions-content p.important {
@@ -84,6 +90,8 @@
     border-radius: 20px; /* Borde redondeado para el contenedor */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
+
+  
 
 strong {
     color: #24a5ba;
