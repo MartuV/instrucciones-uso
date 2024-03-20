@@ -35,7 +35,7 @@
 #container-instrucciones h2#titulo-instrucciones{
     padding: 10px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 1px ;
     background-color: #f0f0f0;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -76,7 +76,7 @@
 
   #manito {
     display: block; 
-    margin: auto;
+    margin: 0 auto 5px auto;
     text-align: center;
   }
 
@@ -89,6 +89,7 @@
     background-color: #f0f0f0;
     border-radius: 20px; /* Borde redondeado para el contenedor */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px ;
   }
 
   

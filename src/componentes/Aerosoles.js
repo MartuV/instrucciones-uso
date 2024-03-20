@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import { descargarInstrucciones } from '../funciones/descargarInstrucciones'; 
 import agitar from '../imagenes/agitar.png';
-
 import inhaladorParado from '../imagenes/inhaladorParado.png';
 import mascara from '../imagenes/mascara.png';
 import aerocamara from '../imagenes/aerocamara.png';
@@ -38,9 +37,9 @@ function Aerosoles() {
 
                     <p><strong>Paso 3:</strong> <img src={mascara} alt="mascara" className="instruction-icon" /> Coloque la máscara cubriendo nariz y boca, sellando con la cara. </p>
 
-                    <p><strong>Paso 4:</strong> <img src={inhaladorApretado} alt="apretar inhalador" className="instruction-icon" /> Apriete el aerosol y <strong>Cuente hasta 10</strong> sin retirar la máscara mientras el niño respira lento y profundo por la boca.</p>
+                    <p><strong>Paso 4:</strong> <img src={inhaladorApretado} alt="apretar inhalador" className="instruction-icon" /> Apriete el aerosol y <strong>Cuente hasta 10 sin retirar la máscara</strong> mientras el niño respira lento y profundo por la boca.</p>
                     <br/>
-                    <p><strong>Paso 5:</strong> 👞👞 Repita los <strong>Pasos 2 a 4</strong> según la cantidad de disparos que le indique el médico. ⏰ Espere 1 minuto entre cada disparo.</p>
+                    <p><strong>Paso 5:</strong> 👞👞 Repita los <strong>Pasos 2 a 4</strong> según la cantidad de disparos que le indique el médico. ⏰ Espere <strong>1 minuto</strong> entre cada disparo.</p>
                     <br/>
                     <p><strong>Paso 6:</strong> Retire el aerosol de la aerocámara y colóquele la tapa.</p>
                     <br/>
@@ -50,7 +49,7 @@ function Aerosoles() {
                     <br/>
                     <p className="important">
                     <img src={aerocamara} alt="aerocamara" className="instruction-icon1" />
-                    <strong id="manito">🖐️IMPORTANTE!:</strong><strong>LAVE </strong>la aerocámara cada 3 semanas, desármela sin retirar la válvula del portaválvula y colóquela por 15 minutos en un recipiente con agua tibia (<span>🚫<strong>NO</strong> caliente</span>) y unas gotas de detergente. <strong>ENJUAGAR?????</strong> con agua tibia???? y dejar <strong>SECAR</strong> sobre una servilleta de papel. 🚫🧼 <strong>NO</strong> refregar ni secar con paño.</p>
+                    <strong id="manito">🖐️ IMPORTANTE!!!:</strong><strong>LAVE </strong>la aerocámara cada 3 semanas, desármela sin retirar la válvula del portaválvula y colóquela por 15 minutos en un recipiente con agua tibia (<span>🚫<strong>NO</strong> caliente</span>) y unas gotas de detergente. <strong>ENJUAGAR?????</strong> con agua tibia???? y dejar <strong>SECAR</strong> sobre una servilleta de papel. 🚫🧼 <strong>NO</strong> refregar ni secar con paño.</p>
                 </div>
             </div>
         </div>
