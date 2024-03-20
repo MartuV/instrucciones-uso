@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/instrucciones-uso/static/css/main.8a584132.css",
-    "main.js": "/instrucciones-uso/static/js/main.1e5f4dce.js",
+    "main.css": "/instrucciones-uso/static/css/main.e788187c.css",
+    "main.js": "/instrucciones-uso/static/js/main.94219908.js",
+    "static/media/agitar.png": "/instrucciones-uso/static/media/agitar.c75b9c565495fa737faf.png",
     "static/media/mascara.png": "/instrucciones-uso/static/media/mascara.892dadf12066023bea19.png",
     "static/media/logohospi.jpg": "/instrucciones-uso/static/media/logohospi.8c2dd82f1d5fb6d452b7.jpg",
     "static/media/inhaladorParado.png": "/instrucciones-uso/static/media/inhaladorParado.277129f9add39adaf6d2.png",
@@ -12,11 +13,11 @@
     "static/media/qr2.jpeg": "/instrucciones-uso/static/media/qr2.e347fdb8ae5c40742820.jpeg",
     "static/media/aerocamara.png": "/instrucciones-uso/static/media/aerocamara.b770436de0db31a9e47d.png",
     "index.html": "/instrucciones-uso/index.html",
-    "main.8a584132.css.map": "/instrucciones-uso/static/css/main.8a584132.css.map",
-    "main.1e5f4dce.js.map": "/instrucciones-uso/static/js/main.1e5f4dce.js.map"
+    "main.e788187c.css.map": "/instrucciones-uso/static/css/main.e788187c.css.map",
+    "main.94219908.js.map": "/instrucciones-uso/static/js/main.94219908.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a584132.css",
-    "static/js/main.1e5f4dce.js"
+    "static/css/main.e788187c.css",
+    "static/js/main.94219908.js"
   ]
 }
