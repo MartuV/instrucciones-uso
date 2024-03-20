@@ -1,55 +1,69 @@
+
+
 import domtoimage from 'dom-to-image';
 
 function descargarInstrucciones(grupo) {
-    // Guardar una referencia al botón
     var boton = document.getElementById('botonDescargar');
-
-    // Ocultar el botón antes de tomar la captura de pantalla
     boton.style.display = 'none';
 
-    // Seleccionar elementos que muestran el mensaje y ocultarlos
     var messageElements = document.querySelectorAll('.message-element');
     messageElements.forEach(function(element) {
         element.style.display = 'none';
     });
 
-    // Capturar toda la página
     var element = document.body;
 
-    // Capturar una captura de pantalla del elemento
-    domtoimage.toBlob(element)
-        .then(function(blob) {
-            // Crear un enlace para descargar la imagen
+    // Aumenta la escala para mejorar la definición
+    var scale = 2; // Ajusta según sea necesario
+
+    domtoimage.toPng(element, {
+        quality: 1, // Calidad máxima
+        width: element.clientWidth * scale,
+        height: element.clientHeight * scale,
+        style: {
+            transform: `scale(${scale})`,
+            transformOrigin: 'top left'
+        }
+    })
+    .then(function(dataUrl) {
+        // Redimensiona la imagen para ajustar la definición
+        var img = new Image();
+        img.onload = function() {
+            var canvas = document.createElement('canvas');
+            canvas.width = element.clientWidth;
+            canvas.height = element.clientHeight;
+            var ctx = canvas.getContext('2d');
+            ctx.drawImage(img, 0, 0, element.clientWidth, element.clientHeight);
+            
+            // Descarga la imagen redimensionada
             var link = document.createElement('a');
-            link.href = window.URL.createObjectURL(blob);
-            link.download = `instrucciones-uso-${grupo}.png`; // Nombre del archivo
+            link.href = canvas.toDataURL();
+            link.download = `instrucciones-uso-${grupo}.png`;
             document.body.appendChild(link);
-
-            // Simular clic en el enlace para iniciar la descarga
             link.click();
-
-            // Limpiar el enlace después de la descarga
             document.body.removeChild(link);
 
-            // Restaurar el botón después de tomar la captura de pantalla
-            boton.style.display = '';
-
-            // Restaurar los elementos ocultos después de tomar la captura de pantalla
-            messageElements.forEach(function(element) {
-                element.style.display = ''; // Restaurar la propiedad 'display' al valor predeterminado
-            });
-        })
-        .catch(function(error) {
-            console.error('Error al guardar la imagen:', error);
-            
-            // En caso de error, asegúrate de restaurar el botón y los elementos ocultos
+            // Restaura el estado después de la descarga
             boton.style.display = '';
             messageElements.forEach(function(element) {
-                element.style.display = ''; // Restaurar la propiedad 'display' al valor predeterminado
+                element.style.display = '';
             });
+        };
+        img.src = dataUrl;
+    })
+    .catch(function(error) {
+        console.error('Error al guardar la imagen:', error);
+        
+        // En caso de error, asegúrate de restaurar el botón y los elementos ocultos
+        boton.style.display = '';
+        messageElements.forEach(function(element) {
+            element.style.display = ''; // Restaurar la propiedad 'display' al valor predeterminado
         });
+    });
 }
 
 export { descargarInstrucciones };
+
+
 
 
