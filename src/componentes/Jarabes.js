@@ -12,10 +12,8 @@ function Jarabes() {
     const handleClick = () => {
         
         setTimeout(() => {
-            descargarInstrucciones(() => {
-                
-            });
-        }, 1000); // Espera 1 segundo antes de llamar a generarPdf
+            descargarInstrucciones(("jarabes"));
+        }, 1000); // Espera 1 segundo antes de llamar a generarPdf // Espera 1 segundo antes de llamar a generarPdf
     };
     
     return (

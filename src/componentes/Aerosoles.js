@@ -39,7 +39,7 @@ function Aerosoles() {
 
                     <p><strong>Paso 4:</strong> <img src={inhaladorApretado} alt="apretar inhalador" className="instruction-icon" /> Apriete el aerosol y <strong>Cuente hasta 10 sin retirar la máscara</strong> mientras el niño respira lento y profundo por la boca.</p>
                     <br/>
-                    <p><strong>Paso 5:</strong> 👞👞 Repita los <strong>Pasos 2 a 4</strong> según la cantidad de disparos que le indique el médico. ⏰ Espere <strong>1 minuto</strong> entre cada disparo.</p>
+                    <p><strong>Paso 5:</strong> 👞👞 Repita los <strong>Pasos 2 a 4</strong> según la cantidad de disparos que le indique el médico. ⏰ <strong>Espere 1 minuto</strong> entre cada disparo.</p>
                     <br/>
                     <p><strong>Paso 6:</strong> Retire el aerosol de la aerocámara y colóquele la tapa.</p>
                     <br/>
