@@ -47,10 +47,18 @@
 }
 
 
+
 .container p {
     text-align: justify;
     color: #1976D2;
 }
+
+.container p strong#aling-izq {
+    display: inline-block;
+    text-align: left;
+    
+}
+
 
 .instructions-content p {
     margin-bottom: 0;
@@ -104,7 +112,9 @@
 strong#azul{
 
     color: #1976D2;
-}  
+} 
+
+
 
 strong {
     color: #24a5ba;

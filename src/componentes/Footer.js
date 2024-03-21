@@ -14,7 +14,8 @@ function Footer() {
                 Iconos: <a href="https://www.flaticon.es/autores/eucalyp" title="Eucalyp"> Eucalyp</a>,
                     <a href="https://www.flaticon.es/autores/freepik" title="Freepik"> Freepik</a>,
                     <a href="https://www.flaticon.es/iconos-gratis/asma" title="asma iconos"> Smashicons</a>,
-                    <a href="https://www.flaticon.es/iconos-gratis/repetir" title="repetir iconos"> heisenberg_jr </a>
+                    <a href="https://www.flaticon.es/iconos-gratis/repetir" title="repetir iconos"> heisenberg_jr</a>,
+                    <a href="https://www.flaticon.es/iconos-gratis/inhalador" title="inhalador iconos"> bsd </a>
                     from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es'</a>
                 </div>
  
