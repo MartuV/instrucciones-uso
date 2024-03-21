@@ -65,7 +65,7 @@ function Aerosoles() {
                     <br/>
                     <strong id="manito">🚫🧼 <strong>NO</strong><strong id="azul"> refregar ni secar con paño.</strong> </strong>
                     <br/>
-                    <strong id="manito">🚫 NO COMPARTIR Aerocámaras.</strong>
+                    <strong id="manito">⚠️🚫 NO COMPARTIR Aerocámaras.</strong>
                     </p>
                     
                     
