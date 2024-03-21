@@ -34,7 +34,7 @@ function Aerosoles() {
             <div id="container-instrucciones" className="instrucciones">   
                 <h2 id="titulo-instrucciones">Instrucciones de Uso: Aerosoles y Aerocámaras</h2>
                 <div className="instructions-content">
-                    <p><strong id="aling-izq">Paso 1:</strong> <img src={destapar} alt="agitar" className="instruction-icon2" />Retire del aerosol la tapa.</p>
+                    <p><strong id="aling-izq">Paso 1:</strong> <img src={destapar} alt="agitar" className="instruction-icon2" />Retire la tapa de la boquilla del aerosol.</p>
 
                     <p><strong id="aling-izq">Paso 2:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={inhaladorParado} alt="inhalador parado" className="instruction-icon" /> Agitar el aerosol.</p>
 
