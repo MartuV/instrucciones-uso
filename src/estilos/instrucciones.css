@@ -35,7 +35,7 @@
 #container-instrucciones h2#titulo-instrucciones{
     padding: 10px;
     margin-top: 5px;
-    margin-bottom: 1px ;
+    margin-bottom: 0 ;
     background-color: #f0f0f0;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -66,6 +66,15 @@
     background-color: #f0f0f0;
 }
 
+.instruction-icon2 {
+    width: 35px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 35px;
+    margin-right: 5px; /* Espaciado entre el ícono y el texto */
+    border-radius: 1px; /* Borde cuadrado para las imágenes */
+    background-color: #f0f0f0;
+}
+
+
 .instruction-icon1 {
     display: block; /* Cambiar a bloque para alinear verticalmente */
     margin: 0 auto 5px auto; /* Centrar horizontalmente */
@@ -92,7 +101,10 @@
     margin-bottom: 40px ;
   }
 
-  
+strong#azul{
+
+    color: #1976D2;
+}  
 
 strong {
     color: #24a5ba;
