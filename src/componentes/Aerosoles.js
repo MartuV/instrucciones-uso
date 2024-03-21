@@ -61,8 +61,9 @@ function Aerosoles() {
 
                     <p className="important">
                     <img src={aerocamara} alt="aerocamara" className="instruction-icon1" />
-                    <strong id="manito">🖐️ IMPORTANTE!!!: LAVE la Aerocámara cada 3 semanas. </strong>Desármela sin retirar la válvula del portaválvula y colóquela por 15 minutos en un recipiente con agua tibia (<span>🚫 <strong>NO</strong> caliente</span>) y unas gotas de detergente. <strong id="azul">ENJUAGAR?????</strong> con agua tibia???? y dejar <strong id="azul">SECAR</strong> sobre una servilleta de papel. 🚫🧼 <strong>NO</strong> refregar ni secar con paño.
+                    <strong id="manito">🖐️ IMPORTANTE!!!: LAVE la Aerocámara cada 3 semanas. </strong>Desármela sin retirar la válvula del portaválvula y colóquela por 15 minutos en un recipiente con agua tibia (<span>🚫<strong>NO</strong> caliente</span>) y unas gotas de detergente. <strong id="azul">ENJUAGAR?????</strong> con agua tibia???? y dejar <strong id="azul">SECAR</strong> sobre una servilleta de papel. 
                     <br/>
+                    <strong id="manito">🚫🧼 <strong>NO</strong><strong id="azul"> refregar ni secar con paño.</strong> </strong>
                     <br/>
                     <strong id="manito">🚫 NO COMPARTIR Aerocámaras.</strong>
                     </p>
