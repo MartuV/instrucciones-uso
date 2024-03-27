@@ -1,25 +1,28 @@
 {
   "files": {
     "main.css": "/instrucciones-uso/static/css/main.c62c4ee4.css",
-    "main.js": "/instrucciones-uso/static/js/main.8927810e.js",
+    "main.js": "/instrucciones-uso/static/js/main.3da103bd.js",
     "static/media/agitar.png": "/instrucciones-uso/static/media/agitar.c75b9c565495fa737faf.png",
+    "static/media/destapar.png": "/instrucciones-uso/static/media/destapar.35084d42a3c95e3235d7.png",
     "static/media/mascara.png": "/instrucciones-uso/static/media/mascara.892dadf12066023bea19.png",
     "static/media/logohospi.jpg": "/instrucciones-uso/static/media/logohospi.8c2dd82f1d5fb6d452b7.jpg",
-    "static/media/destapar.png": "/instrucciones-uso/static/media/destapar.0b312a63aa8a5d76bd3c.png",
+    "static/media/posicion.png": "/instrucciones-uso/static/media/posicion.63f6afba69809e2dcdd0.png",
     "static/media/contento.png": "/instrucciones-uso/static/media/contento.bc3c2acee0346e5b14db.png",
+    "static/media/grifo.png": "/instrucciones-uso/static/media/grifo.178c3fdfa57d6f9b1c28.png",
     "static/media/jarabe.png": "/instrucciones-uso/static/media/jarabe.f3a710cbfc98e52bfbbb.png",
     "static/media/inhaladorApretado.png": "/instrucciones-uso/static/media/inhaladorApretado.78d0ed5f57d78ac5804d.png",
-    "static/media/dosificar.png": "/instrucciones-uso/static/media/dosificar.fd5a875e9e0e3c942515.png",
+    "static/media/dosificar.png": "/instrucciones-uso/static/media/dosificar.5e95c932f4a44c9d9c63.png",
     "static/media/inhaladorParado.png": "/instrucciones-uso/static/media/inhaladorParado.16797a877f41f201f07c.png",
     "static/media/inhalador.png": "/instrucciones-uso/static/media/inhalador.dd204d24b5f98a9c1855.png",
-    "static/media/qr2.jpeg": "/instrucciones-uso/static/media/qr2.e347fdb8ae5c40742820.jpeg",
+    "static/media/jarabe_inicial.png": "/instrucciones-uso/static/media/jarabe_inicial.87ed4ece5942f587c935.png",
     "static/media/aerocamara.png": "/instrucciones-uso/static/media/aerocamara.b770436de0db31a9e47d.png",
+    "static/media/enrasar.png": "/instrucciones-uso/static/media/enrasar.de7474158c19d6c154a7.png",
     "index.html": "/instrucciones-uso/index.html",
     "main.c62c4ee4.css.map": "/instrucciones-uso/static/css/main.c62c4ee4.css.map",
-    "main.8927810e.js.map": "/instrucciones-uso/static/js/main.8927810e.js.map"
+    "main.3da103bd.js.map": "/instrucciones-uso/static/js/main.3da103bd.js.map"
   },
   "entrypoints": [
     "static/css/main.c62c4ee4.css",
-    "static/js/main.8927810e.js"
+    "static/js/main.3da103bd.js"
   ]
 }
