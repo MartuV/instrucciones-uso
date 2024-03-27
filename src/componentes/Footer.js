@@ -10,7 +10,7 @@ function Footer() {
                 <p>Información Medicamentos: Nombre</p>
                 <p>Desarrollo Web: Tu Nombre</p> 
                 <p>Colaboración: Mi compa@era de guardia</p> 
-                <p>Bibliografía: Modo de uso de aerocámaras con máscara facial - Sociedad Argentina de Pediatría.</p> 
+                <p>Bibliografía: Modo de uso de aerocámaras con máscara facial - Sociedad Argentina de Pediatría; Prospecto AeroChamber Plus Flow-Vu.</p> 
                 <div> 
                 Iconos: <a href="https://www.flaticon.es/autores/eucalyp" title="Eucalyp"> Eucalyp</a>,
                     <a href="https://www.flaticon.es/autores/freepik" title="Freepik"> Freepik</a>,
@@ -22,7 +22,7 @@ function Footer() {
  
             </div>
             <div id="footer-year">
-                <p>@ {year}</p>
+                <p>&copy; {year}</p>
             </div>
            
         </footer>
