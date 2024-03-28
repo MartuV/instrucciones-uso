@@ -97,6 +97,19 @@
     text-align: center;
   }
 
+  #titulo-pasos {
+    display: block; 
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 10px; /* Borde redondeado para el contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
   .instructions-content p.important {
     
     padding-top: 0;

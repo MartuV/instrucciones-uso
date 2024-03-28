@@ -67,12 +67,11 @@ function Aerosoles() {
                     <img src={aerocamara} alt="aerocamara" className="instruction-icon1" />
                     <strong id="manito">🖐️ ¡IMPORTANTE!: LAVE la Aerocámara cada 7 a 15 días, siguiendo estos pasos:</strong> 
                     <br/>
-                    <strong id="azul">1. Desarme la Aerocámara:</strong> Retire las piezas sin quitar la válvula del portaválvula y sumérjalas en un recipiente con agua potable tibia (🚫<strong id="azul">NO</strong> caliente) y unas gotas de detergente (para que se forme una ligera espuma en la superficie del agua) durante 15 minutos. Remueva suavemente las piezas en el recipiente.
+                    <strong>1. Desarme la Aerocámara:</strong> Retire las piezas <strong id="azul">sin quitar la válvula del portaválvula</strong> y sumérjalas en un recipiente con <strong id="azul">agua potable tibia</strong> (🚫<strong id="azul">NO caliente</strong>) y  <strong id="azul">unas gotas de detergente</strong> (para que se forme una ligera espuma en la superficie del agua)<strong id="azul"> durante 15 minutos</strong>. <strong id="azul">Remueva suavemente</strong> las piezas en el recipiente.
                     <br/>
-                    <strong id="azul">2. Enjuague:</strong> Vuelva a sumergir las piezas en un recipiente con agua potable tibia y sin detergente y remuévalas suavemente unos minutos para enjuagarlas.
+                    <strong>2. Enjuague:</strong> Vuelva a sumergir las piezas en un recipiente con <strong id="azul">agua potable tibia y sin detergente</strong>  y <strong id="azul">remuévalas suavemente unos minutos</strong> para enjuagarlas.
                     <br/>
-                    <strong id="azul">3. Secado:</strong> Sacuda las piezas para eliminar el exceso de agua y déjelas secar al aire en posición vertical sobre servilletas de papel o un paño limpio.
-                    Asegúrese de que las piezas estén completamente secas antes de rearmar la aerocámara.
+                    <strong>3. Secado:</strong> Sacuda las piezas para eliminar el exceso de agua y déjelas <strong id="azul">secar al aire en posición vertical sobre servilletas de papel o un paño limpio.</strong> Asegúrese de que las piezas estén completamente secas antes de rearmar la aerocámara.
                     <br/>
                     <br/>
                     
@@ -85,7 +84,10 @@ function Aerosoles() {
                     <strong id="manito">⛔️ NO COMPARTIR AEROCÁMARAS.</strong>
                     <br/>
                     <strong id="manito">⛔️ NO USAR AEROCÁMARAS ROTAS O SIN VÁLVULA.</strong>
-                    
+                    <br/>
+                    <span id="manito"><strong id="azul">✅ Asegúrese Siempre de Administrar el Medicamento Correcto al Niño. Siempre Verifique que el medicamento indicado por el médico, incluyendo Nombre y Concentración, sea igual a la información que aparece en la Etiqueta del Medicamento.</strong></span>
+                    <br/>
+                    <br/>
                 </p>
 
                 

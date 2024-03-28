@@ -5,6 +5,7 @@ import jarabeInicial from '../imagenes/jarabe_inicial.png';
 import dosificar from '../imagenes/dosificar.png';
 import enrasar from '../imagenes/enrasar.png';
 import grifo from '../imagenes/grifo.png';
+import mesa from '../imagenes/tabla.png';
 import '../App.css';
 import '../estilos/instrucciones.css';
 
@@ -29,15 +30,81 @@ function Jarabes() {
             </div>
 
             <div id="container-instrucciones" className="instrucciones">   
-                <h2 id="titulo-instrucciones">Instrucciones de Uso - Antibióticos Jarabes en Suspensión</h2>
+                <h2 id="titulo-instrucciones">Instrucciones de Uso: Antibióticos Jarabe - Polvo para Reconstituir</h2>
                 <div className="instructions-content">
-                    <p><strong id="aling-izq">Paso 1:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={jarabeInicial} alt="jarabe inicial" className="instruction-icon" /> Agita el frasco  - Antes de comenzar, agita bien el frasco del medicamento.</p>
-                    
-                    <p><strong id="aling-izq">Paso 2:</strong> <img src={grifo} alt="enrasar" className="instruction-icon" /><img src={enrasar} alt="enrasar" className="instruction-icon" />Agrega el agua - Utiliza una cuchara dosificadora o jeringa para medir la cantidad de agua indicada por tu médico.</p>
-                   
-                    <p><strong id="aling-izq">Paso 3:</strong> <img src={grifo} alt="enrasar" className="instruction-icon" /> Vierte y Mezcla - Vierte el agua en el frasco y mezcla bien. Asegúrate de que todo esté bien combinado.</p>
+                    <br/>
+                    <p id="titulo-pasos"><strong>PREPARACIÓN DE LA SUSPENSIÓN: </strong> 
+                    </p>
 
-                    <p><strong id="aling-izq">Paso 4:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={dosificar} alt="dosificar" className="instruction-icon2" /> Almacena y Dosifica - Guarda el medicamento según las indicaciones y usa la cuchara dosificadora o jeringa para tomar la dosis correcta.</p>
+                    <p><strong id="aling-izq">Paso 1:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={jarabeInicial} alt="jarabe inicial" className="instruction-icon" /> Antes de abrir el frasco, <strong>Agite enérgicamente</strong> para asegurarse de que <strong id="azul">no quede polvo adherido</strong> en las paredes ni compactado en el fondo.
+                    </p>
+                    
+                    <p><strong id="aling-izq">Paso 2:</strong> <img src={grifo} alt="enrasar" className="instruction-icon" /> Abra el frasco y <strong>Agregue agua</strong> llenando el frasco hasta que el <strong id="azul">nivel del agua esté aproximadamente 1 centímetro por debajo de la marca</strong> indicada en el envase.???? Abra el frasco y <strong>Agregue agua</strong> llenando el frasco hasta que el <strong id="azul">nivel del agua esté en la marca indicada</strong> en el envase.????
+                    <br />
+                    🔔 <strong id="azul">Use agua potable a temperatura ambiente o 
+                    fría como sale de la canilla</strong>, en caso de no poseer use el agua que utiliza habitualmente para consumo 🚫<strong id="azul">NO usar agua caliente o tibia.</strong> 
+                    </p>
+
+                    <p><strong id="aling-izq">Paso 3:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /> <strong>Agite enérgicamente</strong> para dispersar el polvo en el agua y crear una <strong id="azul">mezcla homogénea</strong>.
+                    </p>
+                   
+                    <p><strong id="aling-izq">Paso 4:</strong> <img src={mesa} alt="mesa" className="instruction-icon" /> <strong>Deje Reposar</strong> unos minutos el frasco en una <strong id="azul">superficie plana</strong> para que se disipe la espuma.
+                    </p>
+
+                    <p><strong id="aling-izq">Paso 5:</strong> <img src={enrasar} alt="enrasar" className="instruction-icon" /> <strong>Enrasar</strong> agregando <strong id="azul">agua hasta la marca indicada en el envase</strong>. No se preocupe si queda algo de espuma; asegúrese de que el agua alcance la marca, ignorando la espuma.
+                    <br/>
+                    🔔 Para lograr un <strong id="azul">enrasado preciso</strong>, asegúrese de que la marca del envase esté a la altura de sus ojos al medir el nivel del líquido.
+                    </p>
+                  
+                    <p><strong id="aling-izq">Paso 6:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={mesa} alt="mesa" className="instruction-icon" /> <strong id="azul">Nuevamente</strong> <strong>Agite enérgicamente</strong> el frasco después de enrasarlo y <strong>déjelo reposar</strong> unos minutos en una superficie plana. 
+                    </p>
+                    <br/>
+                    <p><strong id="aling-izq">Paso 7:</strong> ✅ <strong>Verifique que el agua llegue hasta la marca del envase</strong>. Si el <strong id="azul">agua está en la marca</strong>, el antibiótico esta <strong id="azul">listo para usar</strong>.
+                    </p>
+                    <br/>
+                    <p><strong id="aling-izq">Paso 8:</strong> 👞👞 En caso de que el <strong id="azul">agua no alcance la marca</strong>, <strong>repita los Pasos</strong> a partir del proceso de enrasado del <strong>Paso 5.</strong> Así se asegurará de que la suspensión tenga la concentración adecuada.
+                    </p>
+                    <br/>
+                    <br/>
+
+                    <p id="titulo-pasos"><strong>ADMINISTRACIÓN: </strong> </p>
+                    <p><strong id="aling-izq">Paso 1:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /> <strong>Agite el frasco antes de administrar cada dosis</strong> para garantizar una <strong id="azul">distribución homogénea</strong> del antibiótico.
+                    </p>
+
+                    <p><strong id="aling-izq">Paso 2:</strong> <img src={dosificar} alt="dosificar" className="instruction-icon" /> <strong>Para tomar la dosis correcta,</strong>  utilice un vasito dosificador o una jeringa. 🚫 <strong id="azul">NO usar cucharas o cucharitas de cocina.</strong>
+                    </p>
+                    <br/>
+                    <br/>
+                   
+                    <p id="titulo-pasos"><strong>ALMACENAMIENTO: </strong> </p>
+                   
+                    <p>🚫👶 <strong></strong>Mantenga el antibiótico fuera del alcance de los niños. <strong>Revise el prospecto o envase</strong> <strong id="azul">para saber cuál es el tiempo de conservación y condiciones de almacenamiento luego de que se agregó agua (suspensión reconstituida)</strong>, que pueden variar según el antibiótico y la marca comercial.
+                    </p>
+                    <br/>
+
+                    <p className="important">
+                    <strong id="manito">🖐️ ¡IMPORTANTE!: </strong> 
+                    <strong id="azul">📝Es fundamental seguir las indicaciones médicas y completar el tratamiento durante todos los días indicados, incluso si el niño parece sentirse mejor antes. Esto garantizará una recuperación completa y ayudará a prevenir la resistencia a los antibióticos.
+                    <br/>
+                    <br/>
+                    ⏰ Cumplir con los horarios de las dosis.
+                    <br/>
+                    <br/>
+                    📅 Es recomendable anotar la fecha de preparación en el envase del antibiótico para garantizar su uso dentro del período recomendado después de preparado con agua.
+                    <br/>
+                    <br/>
+                    🧼 Lavarse o desinfectarse las manos antes de manipular el frasco.
+                    <br/>
+                    <br/>
+                    ✅ Asegúrese Siempre de Administrar el Medicamento Correcto al Niño. Siempre Verifique que el medicamento indicado por el médico, incluyendo Nombre y Concentración, sea igual a la información que aparece en la Etiqueta del Medicamento.</strong>
+                    <br/>
+                    <br/>
+                    </p>
+
+                    
+
+
+
                 </div>
             </div>
            
