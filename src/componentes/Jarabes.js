@@ -36,13 +36,13 @@ function Jarabes() {
                     <p id="titulo-pasos"><strong>PREPARACIÓN DE LA SUSPENSIÓN: </strong> 
                     </p>
 
-                    <p><strong id="aling-izq">Paso 1:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={jarabeInicial} alt="jarabe inicial" className="instruction-icon" /> Antes de abrir el frasco, <strong>Agite enérgicamente</strong> para asegurarse de que <strong id="azul">no quede polvo adherido</strong> en las paredes ni compactado en el fondo.
+                    <p><strong id="aling-izq">Paso 1:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={jarabeInicial} alt="jarabe inicial" className="instruction-icon" /> Antes de abrir el frasco, <strong>Agite enérgicamente</strong> para asegurarse que <strong id="azul">no quede polvo adherido</strong> en las paredes ni compactado en el fondo.
                     </p>
                     
-                    <p><strong id="aling-izq">Paso 2:</strong> <img src={grifo} alt="enrasar" className="instruction-icon" /> Abra el frasco y <strong>Agregue agua</strong> llenando el frasco hasta que el <strong id="azul">nivel del agua esté aproximadamente 1 centímetro por debajo de la marca</strong> indicada en el envase.???? Abra el frasco y <strong>Agregue agua</strong> llenando el frasco hasta que el <strong id="azul">nivel del agua esté en la marca indicada</strong> en el envase.????
+                    <p><strong id="aling-izq">Paso 2:</strong> <img src={grifo} alt="enrasar" className="instruction-icon" /> Abra el frasco y <strong>Agregue agua</strong> hasta que el <strong id="azul">nivel del agua esté aproximadamente 1 centímetro por debajo de la marca</strong> indicada en el envase.???? Abra el frasco y <strong>Agregue agua</strong> hasta que el <strong id="azul">nivel del agua esté en la marca indicada</strong> en el envase.????
                     <br />
                     🔔 <strong id="azul">Use agua potable a temperatura ambiente o 
-                    fría como sale de la canilla</strong>, en caso de no poseer use el agua que utiliza habitualmente para consumo 🚫<strong id="azul">NO usar agua caliente o tibia.</strong> 
+                    fría como sale de la canilla</strong>, en caso de no tener, use el agua que utiliza habitualmente para consumo 🚫<strong id="azul">NO usar agua caliente o tibia.</strong> 
                     </p>
 
                     <p><strong id="aling-izq">Paso 3:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /> <strong>Agite enérgicamente</strong> para dispersar el polvo en el agua y crear una <strong id="azul">mezcla homogénea</strong>.
@@ -84,7 +84,7 @@ function Jarabes() {
 
                     <p className="important">
                     <strong id="manito">🖐️ ¡IMPORTANTE!: </strong> 
-                    <strong id="azul">📝Es fundamental seguir las indicaciones médicas y completar el tratamiento durante todos los días indicados, incluso si el niño parece sentirse mejor antes. Esto garantizará una recuperación completa y ayudará a prevenir la resistencia a los antibióticos.
+                    <span id="manito"><strong id="azul">📝Es fundamental seguir las indicaciones médicas y completar el tratamiento durante todos los días indicados, incluso si el niño parece sentirse mejor antes. Esto garantizará una recuperación completa y ayudará a prevenir la resistencia a los antibióticos.
                     <br/>
                     <br/>
                     ⏰ Cumplir con los horarios de las dosis.
@@ -98,7 +98,7 @@ function Jarabes() {
                     <br/>
                     ✅ Asegúrese Siempre de Administrar el Medicamento Correcto al Niño. Siempre Verifique que el medicamento indicado por el médico, incluyendo Nombre y Concentración, sea igual a la información que aparece en la Etiqueta del Medicamento.</strong>
                     <br/>
-                    <br/>
+                    <br/></span>
                     </p>
 
                     
