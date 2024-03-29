@@ -28,7 +28,7 @@ function Aerosoles() {
         <div id="container-principal" className="container">
             <div className="button-container">  
                 {!generatingInstruccion && (
-                    <button id="botonDescargar" className="button" onClick={handleClick}>Descargar Instrucciones-Uso</button>
+                    <button id="botonDescargar" className="button" onClick={handleClick}>Descargar Instrucciones de Uso</button>
                 )}
             </div>
     
@@ -41,7 +41,7 @@ function Aerosoles() {
 
                     <p><strong id="aling-izq">Paso 3:</strong> <img src={aerosol_aerocamara} alt="aerosol_aerocamara" className="instruction-icon2" /> Con el aerosol hacia arriba, inserte la boquilla del aerosol en la aerocámara.</p>
 
-                    <p><strong id="aling-izq">Paso 4:</strong> <img src={posicion} alt="posicion" className="instruction-icon" /> El niño debe tener una posición cómoda y con la espalda recta, <strong id="azul">preferentemente sentado y con el mentón ligeramente levantado</strong> para mantener despejada la vía aérea. ⚠️ Debe estar <strong id="azul">despierto, sin llorar y sin chupete</strong>. ⚡ <strong id="azul">En bebés,</strong> siéntase con la espalda recta y colóque al bebé en su falda, asegúrase de apoyar la espalda del bebé sobre su pecho para que pueda respirar comoda y fácilmente.</p>
+                    <p><strong id="aling-izq">Paso 4:</strong> <img src={posicion} alt="posicion" className="instruction-icon" /> El niño debe tener una posición cómoda y con la espalda recta, <strong id="azul">preferentemente sentado y con el mentón ligeramente levantado</strong> para mantener despejada la vía aérea. ⚠️ Debe estar <strong id="azul">despierto, sin llorar y sin chupete</strong>. ⚡ <strong id="azul">En bebés,</strong> siéntase con la espalda recta y colóque al bebé en su falda, asegúrase de apoyar la cabeza y espalda del bebé sobre su pecho para que pueda respirar comoda y fácilmente.</p>
 
                     <p><strong id="aling-izq">Paso 5:</strong> <img src={mascara} alt="mascara" className="instruction-icon" /> Coloque la máscara de la aerocámara cubriendo nariz y boca, sellando con la cara. </p>
 
