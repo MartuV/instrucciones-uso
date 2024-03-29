@@ -84,6 +84,7 @@ function Jarabes() {
 
                     <p className="important">
                     <strong id="manito">🖐️ ¡IMPORTANTE!: </strong> 
+                    <br/>
                     <span id="manito"><strong id="azul">📝Es fundamental seguir las indicaciones médicas y completar el tratamiento durante todos los días indicados, incluso si el niño parece sentirse mejor antes. Esto garantizará una recuperación completa y ayudará a prevenir la resistencia a los antibióticos.
                     <br/>
                     <br/>
@@ -97,8 +98,9 @@ function Jarabes() {
                     <br/>
                     <br/>
                     ✅ Asegúrese Siempre de Administrar el Medicamento Correcto al Niño. Siempre Verifique que el medicamento indicado por el médico, incluyendo Nombre y Concentración, sea igual a la información que aparece en la Etiqueta del Medicamento.</strong>
+                   </span>
+                   <br/>
                     <br/>
-                    <br/></span>
                     </p>
 
                     
