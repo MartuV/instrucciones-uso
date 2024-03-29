@@ -16,7 +16,7 @@ function Tarjeta({ nombre, grupo, medicamentos, qrImage }) {
                 <h2>{grupo}</h2>
                 <h3>{medicamentos}</h3>
                 {/* Utilizamos Link para enlazar al destino deseado */}
-                <button className="button" onClick={handleClick}>Ver Instrucciones Uso</button>
+                <button className="button" onClick={handleClick}>Ver Instrucciones de Uso</button>
             </div>
         </div>
     );
