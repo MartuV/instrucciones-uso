@@ -6,7 +6,7 @@ function Tarjeta({ nombre, grupo, medicamentos, qrImage }) {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate(grupo === 'Antibióticos Jarabe - Polvo para Reconstituir' ? '/jarabes' : '/aerosoles');
+        navigate(grupo === 'Antibióticos Jarabe - Polvo para Reconstituir Vía Oral' ? '/jarabes' : '/aerosoles');
     };
 
     return (

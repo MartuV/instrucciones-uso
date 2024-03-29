@@ -30,7 +30,7 @@ function Jarabes() {
             </div>
 
             <div id="container-instrucciones" className="instrucciones">   
-                <h2 id="titulo-instrucciones">Instrucciones de Uso: Antibióticos Jarabe - Polvo para Reconstituir</h2>
+                <h2 id="titulo-instrucciones">Instrucciones de Uso: Antibióticos Jarabe - Polvo para Reconstituir Vía Oral</h2>
                 <div className="instructions-content">
                     <br/>
                     <p id="titulo-pasos"><strong>PREPARACIÓN DE LA SUSPENSIÓN: </strong> 
@@ -68,7 +68,7 @@ function Jarabes() {
                     <br/>
 
                     <p id="titulo-pasos"><strong>ADMINISTRACIÓN: </strong> </p>
-                    <p><strong id="aling-izq">Paso 1:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /> <strong>Agite el frasco antes de administrar cada dosis</strong> para garantizar una <strong id="azul">distribución homogénea</strong> del antibiótico.
+                    <p><strong id="aling-izq">Paso 1:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /> <strong>Agite el frasco antes de administrar cada dosis oral</strong> para garantizar una <strong id="azul">distribución homogénea</strong> del antibiótico.
                     </p>
 
                     <p><strong id="aling-izq">Paso 2:</strong> <img src={dosificar} alt="dosificar" className="instruction-icon" /> <strong>Para tomar la dosis correcta,</strong>  utilice un vasito dosificador o una jeringa. 🚫 <strong id="azul">NO usar cucharas o cucharitas de cocina.</strong>
