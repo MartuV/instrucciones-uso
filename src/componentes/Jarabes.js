@@ -54,7 +54,7 @@ function Jarabes() {
                     <p><strong id="aling-izq">Paso 5:</strong> <img src={enrasar} alt="enrasar" className="instruction-icon3" /> <strong>Enrasar</strong> agregando <strong id="azul">agua hasta la marca indicada en el envase</strong>. No se preocupe si queda algo de espuma; asegúrese de que el agua alcance la marca, ignorando la espuma.
                     <br/>
                     <br/>
-                    🔔 Para lograr un <strong id="azul">enrasado preciso</strong>, asegúrese de que la marca del envase esté a la altura de sus ojos al medir el nivel del agua.
+                    🔔 <strong id="azul">Para lograr un enrasado preciso</strong>, asegúrese de que la marca del envase esté a la altura de sus ojos al medir el nivel del agua.
                     </p>
                   
                     <p><strong id="aling-izq">Paso 6:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={mesa} alt="mesa" className="instruction-icon" /> <strong id="azul"></strong> <strong>Agite otra vez enérgicamente</strong> el frasco después de enrasarlo y <strong>déjelo reposar</strong> unos minutos en una superficie plana. 
