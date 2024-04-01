@@ -82,6 +82,13 @@
     background-color: #f0f0f0;
 }
 
+.instruction-icon3 {
+    width: 30px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 30px;
+    margin-right: 5px; /* Espaciado entre el ícono y el texto */
+    border-radius: 1px; /* Borde cuadrado para las imágenes */
+    background-color: #f0f0f0;
+}
 
 .instruction-icon1 {
     display: block; /* Cambiar a bloque para alinear verticalmente */

@@ -51,7 +51,7 @@ function Jarabes() {
                     <p><strong id="aling-izq">Paso 4:</strong> <img src={mesa} alt="mesa" className="instruction-icon" /> <strong>Deje Reposar</strong> unos minutos el frasco en una <strong id="azul">superficie plana</strong> para que se disipe la espuma.
                     </p>
 
-                    <p><strong id="aling-izq">Paso 5:</strong> <img src={enrasar} alt="enrasar" className="instruction-icon" /> <strong>Enrasar</strong> agregando <strong id="azul">agua hasta la marca indicada en el envase</strong>. No se preocupe si queda algo de espuma; asegúrese de que el agua alcance la marca, ignorando la espuma.
+                    <p><strong id="aling-izq">Paso 5:</strong> <img src={enrasar} alt="enrasar" className="instruction-icon3" /> <strong>Enrasar</strong> agregando <strong id="azul">agua hasta la marca indicada en el envase</strong>. No se preocupe si queda algo de espuma; asegúrese de que el agua alcance la marca, ignorando la espuma.
                     <br/>
                     <br/>
                     🔔 Para lograr un <strong id="azul">enrasado preciso</strong>, asegúrese de que la marca del envase esté a la altura de sus ojos al medir el nivel del agua.
@@ -72,7 +72,7 @@ function Jarabes() {
                     <p><strong id="aling-izq">Paso 1:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /> <strong>Agite el frasco antes de administrar cada dosis oral</strong> para garantizar <strong id="azul"> una distribución uniforme del antibiótico</strong>.
                     </p>
 
-                    <p><strong id="aling-izq">Paso 2:</strong> <img src={dosificar} alt="dosificar" className="instruction-icon" /> <strong>Para tomar la dosis correcta,</strong>  utilice un vasito dosificador o una jeringa. 🚫 <strong id="azul">NO usar cucharas o cucharitas de cocina.</strong>
+                    <p><strong id="aling-izq">Paso 2:</strong> <img src={dosificar} alt="dosificar" className="instruction-icon3" /> <strong>Para tomar la dosis correcta,</strong>  utilice un vasito dosificador o una jeringa. 🚫 <strong id="azul">NO usar cucharas o cucharitas de cocina.</strong>
                     </p>
                     <br/>
                     <br/>
@@ -106,10 +106,6 @@ function Jarabes() {
                    <br/>
                     <br/>  
                     </p>
-
-                    
-
-
 
                 </div>
             </div>
