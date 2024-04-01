@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/instrucciones-uso/static/css/main.12d02d83.css",
-    "main.js": "/instrucciones-uso/static/js/main.5e8d1f63.js",
+    "main.css": "/instrucciones-uso/static/css/main.c04cedd2.css",
+    "main.js": "/instrucciones-uso/static/js/main.84fd80fe.js",
     "static/media/agitar.png": "/instrucciones-uso/static/media/agitar.c75b9c565495fa737faf.png",
     "static/media/destapar.png": "/instrucciones-uso/static/media/destapar.35084d42a3c95e3235d7.png",
     "static/media/mascara.png": "/instrucciones-uso/static/media/mascara.892dadf12066023bea19.png",
     "static/media/logohospi.jpg": "/instrucciones-uso/static/media/logohospi.8c2dd82f1d5fb6d452b7.jpg",
-    "static/media/posicion.png": "/instrucciones-uso/static/media/posicion.63f6afba69809e2dcdd0.png",
     "static/media/contento.png": "/instrucciones-uso/static/media/contento.bc3c2acee0346e5b14db.png",
     "static/media/grifo.png": "/instrucciones-uso/static/media/grifo.178c3fdfa57d6f9b1c28.png",
     "static/media/jarabe.png": "/instrucciones-uso/static/media/jarabe.f3a710cbfc98e52bfbbb.png",
     "static/media/inhaladorApretado.png": "/instrucciones-uso/static/media/inhaladorApretado.78d0ed5f57d78ac5804d.png",
+    "static/media/sentado.png": "/instrucciones-uso/static/media/sentado.4dcf82646d1eb7097b61.png",
     "static/media/dosificar.png": "/instrucciones-uso/static/media/dosificar.5e95c932f4a44c9d9c63.png",
     "static/media/inhaladorParado.png": "/instrucciones-uso/static/media/inhaladorParado.16797a877f41f201f07c.png",
+    "static/media/enrasar.png": "/instrucciones-uso/static/media/enrasar.9d823a56d6a622f77036.png",
     "static/media/inhalador.png": "/instrucciones-uso/static/media/inhalador.dd204d24b5f98a9c1855.png",
     "static/media/jarabe_inicial.png": "/instrucciones-uso/static/media/jarabe_inicial.87ed4ece5942f587c935.png",
     "static/media/aerocamara.png": "/instrucciones-uso/static/media/aerocamara.b770436de0db31a9e47d.png",
-    "static/media/enrasar.png": "/instrucciones-uso/static/media/enrasar.de7474158c19d6c154a7.png",
     "index.html": "/instrucciones-uso/index.html",
-    "main.12d02d83.css.map": "/instrucciones-uso/static/css/main.12d02d83.css.map",
-    "main.5e8d1f63.js.map": "/instrucciones-uso/static/js/main.5e8d1f63.js.map"
+    "main.c04cedd2.css.map": "/instrucciones-uso/static/css/main.c04cedd2.css.map",
+    "main.84fd80fe.js.map": "/instrucciones-uso/static/js/main.84fd80fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.12d02d83.css",
-    "static/js/main.5e8d1f63.js"
+    "static/css/main.c04cedd2.css",
+    "static/js/main.84fd80fe.js"
   ]
 }
