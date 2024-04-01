@@ -36,16 +36,15 @@ function Jarabes() {
                     <p id="titulo-pasos"><strong>PREPARACIÓN DE LA SUSPENSIÓN: </strong> 
                     </p>
 
-                    <p><strong id="aling-izq">Paso 1:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={jarabeInicial} alt="jarabe inicial" className="instruction-icon" /> Antes de abrir el frasco, <strong>Agite enérgicamente</strong> para asegurarse que <strong id="azul">no quede polvo adherido</strong> en las paredes ni compactado en el fondo.
+                    <p><strong id="aling-izq">Paso 1:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={jarabeInicial} alt="jarabe inicial" className="instruction-icon" /> Antes de abrir el frasco, <strong>Agite enérgicamente</strong> para que <strong id="azul">el polvo esté suelto y no quede compactado en el fondo</strong>. 
                     </p>
                     
-                    <p><strong id="aling-izq">Paso 2:</strong> <img src={grifo} alt="enrasar" className="instruction-icon" /> Abra el frasco y <strong>Agregue agua</strong> hasta que el <strong id="azul">nivel del agua esté aproximadamente 1 centímetro por debajo de la marca</strong> indicada en el envase.???? Abra el frasco y <strong>Agregue agua</strong> hasta que el <strong id="azul">nivel del agua esté en la marca indicada</strong> en el envase.????
+                    <p><strong id="aling-izq">Paso 2:</strong> <img src={grifo} alt="enrasar" className="instruction-icon" /> Abra el frasco y <strong>Agregue agua</strong> hasta que el <strong id="azul">nivel del agua esté en la marca indicada</strong> en el envase.
                     <br />
-                    🔔 <strong id="azul">Use agua potable a temperatura ambiente o 
-                    fría como sale de la canilla</strong>, en caso de no tener, use el agua que utiliza habitualmente para consumo. 🚫 <strong id="azul">NO usar agua caliente o tibia.</strong> 
+                    🔔 <strong id="azul">Use agua potable a temperatura ambiente</strong>. En caso de no tener, use el agua que utiliza habitualmente para consumo, ya sea hervida y enfriada o embotellada. 🚫 <strong id="azul">NO usar agua caliente o tibia.</strong> 
                     </p>
 
-                    <p><strong id="aling-izq">Paso 3:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /> <strong>Agite enérgicamente</strong> para dispersar el polvo en el agua y crear una <strong id="azul">mezcla homogénea</strong>.
+                    <p><strong id="aling-izq">Paso 3:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /> <strong>Agite enérgicamente</strong> para que<strong id="azul"> todo el polvo se mezcle completamente con el agua</strong>. Asegúrese que no quede en el fondo polvo sin mezclar.
                     </p>
                    
                     <p><strong id="aling-izq">Paso 4:</strong> <img src={mesa} alt="mesa" className="instruction-icon" /> <strong>Deje Reposar</strong> unos minutos el frasco en una <strong id="azul">superficie plana</strong> para que se disipe la espuma.
@@ -53,10 +52,10 @@ function Jarabes() {
 
                     <p><strong id="aling-izq">Paso 5:</strong> <img src={enrasar} alt="enrasar" className="instruction-icon" /> <strong>Enrasar</strong> agregando <strong id="azul">agua hasta la marca indicada en el envase</strong>. No se preocupe si queda algo de espuma; asegúrese de que el agua alcance la marca, ignorando la espuma.
                     <br/>
-                    🔔 Para lograr un <strong id="azul">enrasado preciso</strong>, asegúrese de que la marca del envase esté a la altura de sus ojos al medir el nivel del líquido.
+                    🔔 Para lograr un <strong id="azul">enrasado preciso</strong>, asegúrese de que la marca del envase esté a la altura de sus ojos al medir el nivel del agua.
                     </p>
                   
-                    <p><strong id="aling-izq">Paso 6:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={mesa} alt="mesa" className="instruction-icon" /> <strong id="azul">Nuevamente</strong> <strong>Agite enérgicamente</strong> el frasco después de enrasarlo y <strong>déjelo reposar</strong> unos minutos en una superficie plana. 
+                    <p><strong id="aling-izq">Paso 6:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={mesa} alt="mesa" className="instruction-icon" /> <strong id="azul"></strong> <strong>Agite otra vez enérgicamente</strong> el frasco después de enrasarlo y <strong>déjelo reposar</strong> unos minutos en una superficie plana. 
                     </p>
                     <br/>
                     <p><strong id="aling-izq">Paso 7:</strong> ✅ <strong>Verifique que el agua llegue hasta la marca del envase</strong>. Si el <strong id="azul">agua está en la marca</strong>, el antibiótico esta <strong id="azul">listo para usar</strong>.
@@ -68,7 +67,7 @@ function Jarabes() {
                     <br/>
 
                     <p id="titulo-pasos"><strong>ADMINISTRACIÓN: </strong> </p>
-                    <p><strong id="aling-izq">Paso 1:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /> <strong>Agite el frasco antes de administrar cada dosis oral</strong> para garantizar una <strong id="azul">distribución homogénea</strong> del antibiótico.
+                    <p><strong id="aling-izq">Paso 1:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /> <strong>Agite el frasco antes de administrar cada dosis oral</strong> para garantizar <strong id="azul"> una distribución uniforme del antibiótico</strong>.
                     </p>
 
                     <p><strong id="aling-izq">Paso 2:</strong> <img src={dosificar} alt="dosificar" className="instruction-icon" /> <strong>Para tomar la dosis correcta,</strong>  utilice un vasito dosificador o una jeringa. 🚫 <strong id="azul">NO usar cucharas o cucharitas de cocina.</strong>
@@ -78,7 +77,7 @@ function Jarabes() {
                    
                     <p id="titulo-pasos"><strong>ALMACENAMIENTO: </strong> </p>
                    
-                    <p>🚫👶 <strong></strong>Mantenga el antibiótico fuera del alcance de los niños. <strong>Revise el prospecto o envase</strong> <strong id="azul">para saber cuál es el tiempo de conservación y condiciones de almacenamiento luego de que se agregó agua (suspensión reconstituida)</strong>, que pueden variar según el antibiótico y la marca comercial.
+                    <p>🚫👶 <strong></strong>Mantenga el antibiótico fuera del alcance de los niños. <strong>Revise el prospecto o envase</strong> <strong id="azul">para saber cuál es el tiempo de conservación y condiciones de almacenamiento (heladera o temperatura ambiente) luego de que se agregó agua (suspensión reconstituida)</strong>, que pueden variar según el antibiótico y la marca comercial. 
                     </p>
                     <br/>
 
