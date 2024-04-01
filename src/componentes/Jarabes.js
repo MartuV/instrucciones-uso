@@ -41,6 +41,7 @@ function Jarabes() {
                     
                     <p><strong id="aling-izq">Paso 2:</strong> <img src={grifo} alt="enrasar" className="instruction-icon" /> Abra el frasco y <strong>Agregue agua</strong> hasta que el <strong id="azul">nivel del agua esté en la marca indicada</strong> en el envase.
                     <br />
+                    <br/>
                     🔔 <strong id="azul">Use agua potable a temperatura ambiente</strong>. En caso de no tener, use el agua que utiliza habitualmente para consumo, ya sea hervida y enfriada o embotellada. 🚫 <strong id="azul">NO usar agua caliente o tibia.</strong> 
                     </p>
 
@@ -51,6 +52,7 @@ function Jarabes() {
                     </p>
 
                     <p><strong id="aling-izq">Paso 5:</strong> <img src={enrasar} alt="enrasar" className="instruction-icon" /> <strong>Enrasar</strong> agregando <strong id="azul">agua hasta la marca indicada en el envase</strong>. No se preocupe si queda algo de espuma; asegúrese de que el agua alcance la marca, ignorando la espuma.
+                    <br/>
                     <br/>
                     🔔 Para lograr un <strong id="azul">enrasado preciso</strong>, asegúrese de que la marca del envase esté a la altura de sus ojos al medir el nivel del agua.
                     </p>
@@ -77,7 +79,10 @@ function Jarabes() {
                    
                     <p id="titulo-pasos"><strong>ALMACENAMIENTO: </strong> </p>
                    
-                    <p>🚫👶 <strong></strong>Mantenga el antibiótico fuera del alcance de los niños. <strong>Revise el prospecto o envase</strong> <strong id="azul">para saber cuál es el tiempo de conservación y condiciones de almacenamiento (heladera o temperatura ambiente) luego de que se agregó agua (suspensión reconstituida)</strong>, que pueden variar según el antibiótico y la marca comercial. 
+                    <p>🚫👶 <strong>Mantenga el antibiótico fuera del alcance de los niños.</strong> 
+                    <br/>
+                    <br/>
+                    🔍 <strong>Revise el prospecto o envase</strong> <strong id="azul">para saber cuál es el tiempo de conservación y condiciones de almacenamiento (heladera o temperatura ambiente) luego de que se agregó agua (suspensión reconstituida)</strong>, que pueden variar según el antibiótico y la marca comercial. 
                     </p>
                     <br/>
 
