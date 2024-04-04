@@ -5,6 +5,7 @@ import jarabeInicial from '../imagenes/jarabe_inicial.png';
 import dosificar from '../imagenes/dosificar.png';
 import enrasar from '../imagenes/enrasar.png';
 import grifo from '../imagenes/grifo.png';
+import marca from '../imagenes/marca.png';
 import mesa from '../imagenes/tabla.png';
 import '../App.css';
 import '../estilos/instrucciones.css';
@@ -39,7 +40,7 @@ function Jarabes() {
                     <p><strong id="aling-izq">Paso 1:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={jarabeInicial} alt="jarabe inicial" className="instruction-icon" /> Antes de abrir el frasco, <strong>Agite enérgicamente</strong> para que <strong id="azul">el polvo esté suelto y no quede compactado en el fondo</strong>. 
                     </p>
                     
-                    <p><strong id="aling-izq">Paso 2:</strong> <img src={grifo} alt="enrasar" className="instruction-icon" /> Abra el frasco y <strong>Agregue agua</strong> hasta que el <strong id="azul">nivel del agua esté en la marca indicada</strong> en el envase.
+                    <p><strong id="aling-izq">Paso 2:</strong> <img src={grifo} alt="grifo" className="instruction-icon" /> <img src={marca} alt="llenar hasta la marca" className="instruction-icon3" /> Abra el frasco y <strong>Agregue agua</strong> hasta que el <strong id="azul">nivel del agua esté en la marca indicada</strong> en el envase.
                     <br />
                     <br/>
                     🔔 <strong id="azul">Use agua potable a temperatura ambiente</strong>. En caso de no tener, use el agua que utiliza habitualmente para consumo, ya sea hervida y enfriada o embotellada. 🚫 <strong id="azul">NO usar agua caliente o tibia.</strong> 
