@@ -40,7 +40,7 @@ function Jarabes() {
                     <p><strong id="aling-izq">Paso 1:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={jarabeInicial} alt="jarabe inicial" className="instruction-icon" /> Antes de abrir el frasco, <strong>Agite enérgicamente</strong> para que <strong id="azul">el polvo esté suelto y no quede compactado en el fondo</strong>. 
                     </p>
                     
-                    <p><strong id="aling-izq">Paso 2:</strong> <img src={grifo} alt="grifo" className="instruction-icon" /> <img src={marca} alt="llenar hasta la marca" className="instruction-icon3" /> Abra el frasco y <strong>Agregue agua</strong> hasta que el <strong id="azul">nivel del agua esté en la marca indicada</strong> en el envase.
+                    <p><strong id="aling-izq">Paso 2:</strong> <img src={grifo} alt="grifo" className="instruction-icon" /><img src={marca} alt="llenar hasta la marca" className="instruction-icon3" /> Abra el frasco y <strong>Agregue agua</strong> hasta que el <strong id="azul">nivel del agua esté en la marca indicada</strong> en el envase.
                     <br />
                     <br/>
                     🔔 <strong id="azul">Use agua potable a temperatura ambiente</strong>. En caso de no tener, use el agua que utiliza habitualmente para consumo, ya sea hervida y enfriada o embotellada. 🚫 <strong id="azul">NO usar agua caliente o tibia.</strong> 
@@ -52,7 +52,7 @@ function Jarabes() {
                     <p><strong id="aling-izq">Paso 4:</strong> <img src={mesa} alt="mesa" className="instruction-icon" /> <strong>Deje Reposar</strong> unos minutos el frasco en una <strong id="azul">superficie plana</strong> para que se disipe la espuma y la mezcla se asiente.
                     </p>
 
-                    <p><strong id="aling-izq">Paso 5:</strong> <img src={enrasar} alt="enrasar" className="instruction-icon3" /> <strong>Enrasar</strong> agregando <strong id="azul">agua hasta la marca indicada en el envase</strong>. No se preocupe si queda algo de espuma; asegúrese de que el agua alcance la marca, ignorando la espuma.
+                    <p><strong id="aling-izq">Paso 5:</strong> <img src={enrasar} alt="enrasar" className="instruction-icon2" /> <strong>Enrasar</strong> agregando <strong id="azul">agua hasta la marca indicada en el envase</strong>. No se preocupe si queda algo de espuma; asegúrese de que el agua alcance la marca, ignorando la espuma.
                     <br/>
                     <br/>
                     🔔 Para lograr un <strong id="azul">enrasado preciso</strong>, asegúrese de que la marca del envase esté a la altura de sus ojos al medir el nivel del agua.
