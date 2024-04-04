@@ -13,6 +13,9 @@ function MenuQR() {
 
     return (
         <div id="container-menu" className="container"> {/* Contenedor principal */}
+
+        <a href="https://martuv.github.io/instrucciones-uso/" download="nombre_archivo">Descargar Aplicación Web</a>
+
          <h4>Haga clic en el botón para ver las instrucciones de uso</h4>
             <div className="menuQr"> {/* Contenedor específico del menú QR */}
                
