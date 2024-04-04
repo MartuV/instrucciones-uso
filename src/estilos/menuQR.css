@@ -75,6 +75,29 @@ h3 {
   color: #24a5ba;
 }
 
+#sombra {
+   
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 5px 0 5px;
+  text-align: center;
+  background-color:  #f0f0f0;
+  border-radius: 10px; /* Borde redondeado para el contenedor */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h4#verde{
+  color: #24a5ba;
+ 
+}
+
+#botonInstalarPWA {
+  background-color: #24a5ba !important; /* ¡Asegúrate de que no haya otros estilos más específicos anulando este! */
+}
+
+
 
 @media only screen and (max-width: 700px) {
 
@@ -104,4 +127,7 @@ h3 {
     width: 80%;
     margin: 10px auto 0; /* Ajustar el margen vertical y hacer que los márgenes izquierdo y derecho sean iguales */
   }
+
+ 
+
 }
