@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/instrucciones-uso/static/css/main.c04cedd2.css",
-    "main.js": "/instrucciones-uso/static/js/main.fa08c31b.js",
+    "main.js": "/instrucciones-uso/static/js/main.7365603b.js",
     "static/media/agitar.png": "/instrucciones-uso/static/media/agitar.c75b9c565495fa737faf.png",
     "static/media/destapar.png": "/instrucciones-uso/static/media/destapar.35084d42a3c95e3235d7.png",
     "static/media/mascara.png": "/instrucciones-uso/static/media/mascara.892dadf12066023bea19.png",
@@ -20,10 +20,10 @@
     "static/media/aerocamara.png": "/instrucciones-uso/static/media/aerocamara.b770436de0db31a9e47d.png",
     "index.html": "/instrucciones-uso/index.html",
     "main.c04cedd2.css.map": "/instrucciones-uso/static/css/main.c04cedd2.css.map",
-    "main.fa08c31b.js.map": "/instrucciones-uso/static/js/main.fa08c31b.js.map"
+    "main.7365603b.js.map": "/instrucciones-uso/static/js/main.7365603b.js.map"
   },
   "entrypoints": [
     "static/css/main.c04cedd2.css",
-    "static/js/main.fa08c31b.js"
+    "static/js/main.7365603b.js"
   ]
 }
