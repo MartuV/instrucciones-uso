@@ -2,18 +2,43 @@ const CACHE_NAME = 'mi-app-cache-v1';
 const urlsToCache = [
   '/',
   '/index.html',
-  
+  '/componentes/Aerosoles.js',
+  '/componentes/Footer.js',
+  '/componentes/Jarabes.js',
+  '/componentes/MenuQR.js',
+  '/componentes/Navbar.js',
+  '/componentes/Tarjeta.js',
+ 
+
+  '/estilos/footer.css',
+  '/estilos/instrucciones.css',
+  '/estilos/menuQR.css',
+  '/estilos/navbar.css',
+
+
+  '/imagenes/aerocamara.png',
+  '/imagenes/aerosol.png',
+  '/imagenes/agitar.png',
+  '/imagenes/contento.png',
+
 
   
 ];
 
 self.addEventListener('install', event => {
+  console.log('Evento de instalación del Service Worker activado');
+
   // Instalar el Service Worker
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then(cache => cache.addAll(urlsToCache))
+      .then(cache => {
+        console.log('Caché abierta');
+        return cache.addAll(urlsToCache);
+      })
+      .then(() => console.log('Recursos caché agregados'))
   );
 });
+
 
 // Variable para almacenar si el mensaje de instalación se ha mostrado
 let mensajeInstalacionMostrado = false;
