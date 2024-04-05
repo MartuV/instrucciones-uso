@@ -77,6 +77,9 @@ function MenuQR() {
 
      </div>}
 
+     
+
+
     </div>
   );
 }

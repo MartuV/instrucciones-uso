@@ -9,6 +9,7 @@ import Navbar from './componentes/Navbar';
 import Footer from './componentes/Footer';
 
 
+
 function App() {
   return (
 
@@ -46,6 +47,8 @@ function App() {
           </>
         }
       />
+
+
     </Routes>
 
   </Router>
