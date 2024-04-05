@@ -1,39 +1,16 @@
-import React, { useEffect, useState } from 'react';
+// MenuQR.js
+
+import React from 'react';
 import '../App.css';
 import '../estilos/menuQR.css';
+
 import Tarjeta from './Tarjeta';
 
-function MenuQR() {
+function MenuQR({ isInstalled, setIsInstalled, deferredPrompt, setDeferredPrompt }) {
   const qrImages = [
     { nombre: 'Instrucciones 1', imagen: 'jarabe.png', grupo: 'Antibióticos Jarabe - Polvo para Reconstituir Vía Oral', medicamentos: 'Amoxicilina - Amoxicilina/Clavulánico - Cefalexina - Claritromicina' },
     { nombre: 'Instrucciones 2', imagen: 'inhalador.png', grupo: 'Aerosoles y Aerocámaras', medicamentos: 'Budesonide - Salbutamol' },
   ];
-
-  const [isInstalled, setIsInstalled] = useState(false);
-  const [deferredPrompt, setDeferredPrompt] = useState(null);
-
-  useEffect(() => {
-    const beforeInstallPromptHandler = (event) => {
-      event.preventDefault();
-      setDeferredPrompt(event);
-    };
-
-    const appInstalledHandler = () => {
-      setIsInstalled(true);
-    };
-
-    if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) {
-      setIsInstalled(true);
-    }
-
-    window.addEventListener('beforeinstallprompt', beforeInstallPromptHandler);
-    window.addEventListener('appinstalled', appInstalledHandler);
-
-    return () => {
-      window.removeEventListener('beforeinstallprompt', beforeInstallPromptHandler);
-      window.removeEventListener('appinstalled', appInstalledHandler);
-    };
-  }, []);
 
   const mostrarMensajeInstalacion = () => {
     if (deferredPrompt) {
@@ -74,5 +51,3 @@ function MenuQR() {
 }
 
 export default MenuQR;
-
-

@@ -1,3 +1,5 @@
+// App.js
+
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MenuQR from './componentes/MenuQR';
@@ -68,10 +70,14 @@ function App() {
             isOnline ? (
               <>
                 <Navbar />
-                <MenuQR isInstalled={isInstalled} deferredPrompt={deferredPrompt} />
+                <MenuQR isInstalled={isInstalled} setIsInstalled={setIsInstalled} deferredPrompt={deferredPrompt} setDeferredPrompt={setDeferredPrompt} />
                 <Footer />
               </>
-            ) : null
+            ) : (
+              <div id="sombra">
+                <h4 id="verde">No hay conexión a Internet</h4>
+              </div>
+            )
           }
         />
         <Route
@@ -110,3 +116,4 @@ function App() {
 }
 
 export default App;
+

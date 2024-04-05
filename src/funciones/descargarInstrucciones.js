@@ -44,8 +44,3 @@ function descargarInstrucciones(grupo) {
 }
 
 export { descargarInstrucciones };
-
-
-
-
-
