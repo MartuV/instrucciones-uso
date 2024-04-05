@@ -1,28 +1,10 @@
 const CACHE_NAME = 'mi-app-cache-v1';
 const urlsToCache = [
   '/',
-  '/public/index.html',
-  '/scr/app.js',
+  '/index.html',
+  
 
-  '/scr/componentes/Aerosoles.js',
-  '/scr/componentes/Footer.js',
-  '/scr/componentes/Jarabes.js',
-  '/scr/componentes/MenuQR.js',
-  '/scr/componentes/Navbar.js',
-  '/scr/componentes/Tarjeta.js',
- 
-
-  '/scr/estilos/footer.css',
-  '/scr/estilos/instrucciones.css',
-  '/scr/estilos/menuQR.css',
-  '/scr/estilos/navbar.css',
-
-
-
-  '/scr/imagenes/aerocamara.png',
-  '/scr/imagenes/aerosol.png',
-  '/scr/imagenes/agitar.png',
-  '/scr/imagenes/contento.png',
+  
 ];
 
 self.addEventListener('install', event => {
