@@ -62,15 +62,31 @@ fetch(imagenesPath)
   let mensajeInstalacionMostrado = false;
   
   self.addEventListener('fetch', event => {
-    // Intercepta solicitudes de red
     event.respondWith(
+      // Intenta obtener la respuesta de la caché
       caches.match(event.request)
         .then(response => {
-          // Retorna el recurso desde la caché si está disponible
-          return response || fetch(event.request);
+          // Si hay una respuesta en la caché, la retorna
+          if (response) {
+            return response;
+          }
+  
+          // Si no hay respuesta en la caché, intenta obtenerla de la red
+          return fetch(event.request)
+            .catch(() => {
+              // Si no hay conexión a Internet, muestra el mensaje de error
+              mostrarMensajeOffline();
+            });
         })
     );
   });
+  
+  function mostrarMensajeOffline() {
+    // Muestra el mensaje de error en la página principal
+    const offlineMessage = document.getElementById('offline-message');
+    offlineMessage.style.display = 'block';
+  }
+  
   
   self.addEventListener('beforeinstallprompt', (event) => {
     // Previene que el navegador muestre automáticamente el mensaje de instalación
