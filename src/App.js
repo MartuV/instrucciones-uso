@@ -8,6 +8,7 @@ import Navbar from './componentes/Navbar';
 import Footer from './componentes/Footer';
 
 function App() {
+  
   return (
     <Router basename="/instrucciones-uso"> {/* Establece el basename aquí */}
       <Navbar /> {/* Navbar se renderiza en todas las rutas */}
