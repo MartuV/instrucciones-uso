@@ -1,58 +1,111 @@
-
-
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MenuQR from './componentes/MenuQR';
 import Jarabes from './componentes/Jarabes';
 import Aerosoles from './componentes/Aerosoles';
-import Navbar from './componentes/Navbar'; 
+import Navbar from './componentes/Navbar';
 import Footer from './componentes/Footer';
 
-
-
 function App() {
+  const [isOnline, setIsOnline] = useState(true);
+  const [deferredPrompt, setDeferredPrompt] = useState(null);
+  const [isInstalled, setIsInstalled] = useState(false);
+
+  useEffect(() => {
+    const handleOnlineStatus = () => {
+      setIsOnline(navigator.onLine);
+    };
+
+    window.addEventListener('online', handleOnlineStatus);
+    window.addEventListener('offline', handleOnlineStatus);
+
+    return () => {
+      window.removeEventListener('online', handleOnlineStatus);
+      window.removeEventListener('offline', handleOnlineStatus);
+    };
+  }, []);
+
+  useEffect(() => {
+    const beforeInstallPromptHandler = (event) => {
+      event.preventDefault();
+      setDeferredPrompt(event);
+    };
+
+    const appInstalledHandler = () => {
+      setIsInstalled(true);
+    };
+
+    window.addEventListener('beforeinstallprompt', beforeInstallPromptHandler);
+    window.addEventListener('appinstalled', appInstalledHandler);
+
+    return () => {
+      window.removeEventListener('beforeinstallprompt', beforeInstallPromptHandler);
+      window.removeEventListener('appinstalled', appInstalledHandler);
+    };
+  }, []);
+
+  const handleInstallClick = () => {
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+          console.log('El usuario ha aceptado la instalación');
+          setIsInstalled(true);
+        } else {
+          console.log('El usuario ha cancelado la instalación');
+        }
+        setDeferredPrompt(null);
+      });
+    }
+  };
+
   return (
-
-    /*basename porque lo tengo en ghpages */
     <Router basename="/instrucciones-uso">
-    <Routes>
-      <Route
-        exact
-        path="/"
-        element={
-          <>
-            <Navbar />
-            <MenuQR />
-            <Footer />
-          </>
-        }
-      />
-      <Route
-        path="/jarabes"
-        element={
-          <>
-            <Navbar />
-            <Jarabes />
-            <Footer />
-          </>
-        }
-      />
-      <Route
-        path="/aerosoles"
-        element={
-          <>
-            <Navbar /> 
-            <Aerosoles />
-            <Footer />
-          </>
-        }
-      />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            isOnline ? (
+              <>
+                <Navbar />
+                <MenuQR isInstalled={isInstalled} deferredPrompt={deferredPrompt} />
+                <Footer />
+              </>
+            ) : null
+          }
+        />
+        <Route
+          path="/jarabes"
+          element={
+            isOnline ? (
+              <>
+                <Navbar />
+                <Jarabes />
+                <Footer />
+              </>
+            ) : null
+          }
+        />
+        <Route
+          path="/aerosoles"
+          element={
+            isOnline ? (
+              <>
+                <Navbar />
+                <Aerosoles />
+                <Footer />
+              </>
+            ) : null
+          }
+        />
+      </Routes>
 
-
-
-    </Routes>
-
-  </Router>
+      {!isOnline && deferredPrompt && (
+        <div>
+          <button onClick={handleInstallClick}>Instalar aplicación</button>
+        </div>
+      )}
+    </Router>
   );
 }
 
