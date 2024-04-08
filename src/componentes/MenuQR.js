@@ -11,43 +11,45 @@ function MenuQR() {
     { nombre: 'Instrucciones 2', imagen: 'inhalador.png', grupo: 'Aerosoles y Aerocámaras', medicamentos: 'Budesonide - Salbutamol' },
   ];
 
+  // Estado para controlar la visibilidad del botón de instalación de la PWA
   const [isReadyForInstall, setIsReadyForInstall] = React.useState(false);
 
   useEffect(() => {
+    // Event listener (Escuchador de Eventos) para el evento 'beforeinstallprompt'(evento que se dispara cuando se reconoce la pwa)
     window.addEventListener("beforeinstallprompt", (event) => {
-      // Prevent the mini-infobar from appearing on mobile.
+      // Prevenir que aparezca la mini-infobar en dispositivos móviles
       event.preventDefault();
       console.log("👍", "beforeinstallprompt", event);
-      // Stash the event so it can be triggered later.
+      // Guardar el evento para usarlo después
       window.deferredPrompt = event;
-      // Remove the 'hidden' class from the install button container.
+      // Mostrar el botón de instalación
       setIsReadyForInstall(true);
     });
 
-    // Listener para el evento 'appinstalled'
+    // Event listener para el evento 'appinstalled'
     window.addEventListener('appinstalled', () => {
       // La aplicación se ha instalado, ocultar el botón
       setIsReadyForInstall(false);
     });
   }, []);
 
+  // Función para descargar e instalar la PWA
   async function downloadApp() {
     console.log("👍", "butInstall-clicked");
     const promptEvent = window.deferredPrompt;
     if (!promptEvent) {
-      // The deferred prompt isn't available.
-      console.log("oops, no prompt event guardado en window");
+      // El evento de instalación no está disponible
+      console.log("Oops, no se guardó el evento de instalación en window");
       return;
     }
-    // Show the install prompt.
+    // Mostrar el prompt de instalación
     promptEvent.prompt();
-    // Log the result
+    // Registrar el resultado
     const result = await promptEvent.userChoice;
     console.log("👍", "userChoice", result);
-    // Reset the deferred prompt variable, since
-    // prompt() can only be called once.
+    // Restablecer la variable deferredPrompt, ya que prompt() solo se puede llamar una vez
     window.deferredPrompt = null;
-    // Hide the install button.
+    // Ocultar el botón de instalación
     setIsReadyForInstall(false);
   }
 

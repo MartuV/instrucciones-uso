@@ -13,7 +13,7 @@ h4 {
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .menuQr {
@@ -108,6 +108,11 @@ h4#verde{
     margin-right: 3px;
    
   }
+  #container-menu {
+    
+    margin-top: 100px;
+  }
+
   .menuQr {
     flex-direction: column;
     align-items: center;
@@ -131,3 +136,12 @@ h4#verde{
  
 
 }
+
+/* Media query para pantallas grandes */
+@media screen and (min-width: 701px) {
+    
+  #container-menu {
+    
+    margin-top: 5px;
+  }
+}   
