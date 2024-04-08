@@ -11,7 +11,7 @@
 .button-container {
     max-width: 100%;
     width: 600px;
-    margin-top: 0;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -134,8 +134,6 @@ strong#azul{
     color: #1976D2;
 } 
 
-
-
 strong {
     color: #24a5ba;
 }
@@ -148,23 +146,20 @@ strong {
     }
 
     .button-container {
-        margin: 0px auto 0px auto; 
+        margin: 5px auto 0px auto; 
     }
 
     #container-instrucciones {
         width: 85%;
-        margin: 10px 5px 0px 5px;
+        margin: 0px 5px 0px 5px;
         align-items: center; /* Centrar verticalmente los elementos */
     }
 }
 
-
-
-
  /* Media query para pantallas grandes */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 701px) {
     
     #container-principal {
-        margin-top: 100px;
+        margin-top: 105px;
     }
   }   

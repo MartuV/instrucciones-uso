@@ -8,8 +8,9 @@ function Footer() {
         <footer className="footer">
             <div id="footer-content">
                 <p>Información Medicamentos: Nombre.</p>
-                <p>Desarrollo Web: Tu Nombre.</p> 
-                <p>Colaboración: mi compa@era de guardia.</p> 
+                <p>Desarrollo Web: Tu nombre.</p> 
+                <p>Colaboración: Mi compa@era de guardia.</p> 
+                
                 <p>Bibliografía: Modo de uso de aerocámaras con máscara facial - Sociedad Argentina de Pediatría; Prospecto AeroChamber Plus Flow-Vu.</p> 
                 <div> 
                 Iconos: <a href="https://www.flaticon.es/autores/eucalyp" title="Eucalyp"> Eucalyp</a>,

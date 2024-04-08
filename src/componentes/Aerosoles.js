@@ -67,7 +67,7 @@ function Aerosoles() {
                     <img src={aerocamara} alt="aerocamara" className="instruction-icon1" />
                     <strong id="manito">🖐️ ¡IMPORTANTE!: LAVE la Aerocámara cada 7 a 15 días, siguiendo estos pasos:</strong> 
                     <br/>
-                    <strong>1. Desarme la Aerocámara:</strong> Retire las piezas <strong id="azul">sin quitar la válvula del portaválvula</strong> y sumérjalas en un recipiente con <strong id="azul">agua potable tibia</strong> (🚫<strong id="azul">NO caliente</strong>) y  <strong id="azul">unas gotas de detergente</strong> (para que se forme una ligera espuma en la superficie del agua)<strong id="azul"> durante 15 minutos</strong>. <strong id="azul">Remueva suavemente</strong> las piezas en el recipiente.
+                    <strong>1. Desarme la Aerocámara:</strong> Retire las piezas <strong id="azul">sin quitar la válvula del portaválvula</strong> y sumérjalas en un recipiente con <strong id="azul">agua potable tibia</strong> (🚫<strong id="azul">NO caliente</strong>) y  <strong id="azul">aproximadamente 5 gotas de detergente por litro de agua</strong> (para que se forme una ligera espuma en la superficie del agua)<strong id="azul"> durante 15 minutos</strong>. <strong id="azul">Remueva suavemente</strong> las piezas en el recipiente.
                     <br/>
                     <br/>
                     <strong>2. Enjuague:</strong> Vuelva a sumergir las piezas en un recipiente con <strong id="azul">agua potable tibia y sin detergente</strong>  y <strong id="azul">remuévalas suavemente unos minutos</strong> para enjuagarlas.

@@ -8,18 +8,21 @@ import Navbar from './componentes/Navbar';
 import Footer from './componentes/Footer';
 
 function App() {
-  
   return (
-    <Router basename="/instrucciones-uso"> {/* Establece el basename aquí */}
-      <Navbar /> {/* Navbar se renderiza en todas las rutas */}
+    <Router basename="/instrucciones-uso">
+      <Navbar/>
       <Routes>
+        {/* Página principal */}
         <Route path="/" element={<MenuQR />} />
+        {/* Página de Jarabes */}
         <Route path="/jarabes" element={<Jarabes />} />
+        {/* Página de Aerosoles */}
         <Route path="/aerosoles" element={<Aerosoles />} />
       </Routes>
-      <Footer /> {/* Footer se renderiza en todas las rutas */}
+      <Footer/>
     </Router>
   );
 }
+
 
 export default App;

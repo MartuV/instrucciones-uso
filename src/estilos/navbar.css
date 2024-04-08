@@ -8,7 +8,7 @@
     align-items: center; /* Centra verticalmente el contenido */
     color: white; /* Color del texto */
     position: fixed; /* Hace que la barra de navegación sea fija */
-    top: 0; /* Ancla la barra de navegación en la parte superior */
+    top:  0 ; /* Ancla la barra de navegación en la parte superior */
     left: 0; /* Asegura que la barra de navegación esté alineada a la izquierda */
     background-image: linear-gradient(45deg, transparent 50%, rgba(255,255,255,0.1) 50%), linear-gradient(-45deg, transparent 50%, rgba(255,255,255,0.1) 50%);
     background-size: 20px 20px; /* Tamaño del patrón */
@@ -16,6 +16,10 @@
     
 }
 
+.navigation-bar {
+
+    display: none;
+}
 
 .logo-container {
     display: flex; /* Utilizamos flexbox para organizar el logo y el texto */
@@ -40,12 +44,13 @@
 
 
 /* Media query para pantallas más grandes */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 700px) {
     .navbar {
-        padding: 10px 20px; /* Ajustamos el padding para pantallas más grandes */
+        padding: 10px 0px 10px 20px; /* Ajustamos el padding para pantallas más grandes */
         width: 100%; /* Hacemos que el navbar ocupe todo el ancho */
         margin: 0; /* Elimina cualquier margen predeterminado en el navbar */
     }
+
 
     .logo {
         width: 50px; /* Aumentamos el tamaño del logo */
@@ -57,3 +62,5 @@
         font-size: 14px; /* Aumentamos el tamaño del texto para pantallas más grandes */
     }
 }
+
+

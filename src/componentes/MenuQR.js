@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
 import '../estilos/menuQR.css';
-import OfflineMessage from './OfflineMessage';
 import Tarjeta from './Tarjeta';
+
 
 function MenuQR() {
   
@@ -11,53 +11,45 @@ function MenuQR() {
     { nombre: 'Instrucciones 2', imagen: 'inhalador.png', grupo: 'Aerosoles y Aerocámaras', medicamentos: 'Budesonide - Salbutamol' },
   ];
 
-  const [isInstalled, setIsInstalled] = useState(false);
-  const [deferredPrompt, setDeferredPrompt] = useState(null);
+  const [isReadyForInstall, setIsReadyForInstall] = React.useState(false);
 
   useEffect(() => {
-    const beforeInstallPromptHandler = (event) => {
-      // Prevenir que el navegador muestre automáticamente el mensaje de instalación
+    window.addEventListener("beforeinstallprompt", (event) => {
+      // Prevent the mini-infobar from appearing on mobile.
       event.preventDefault();
-      // Guardar el evento para usarlo más tarde
-      setDeferredPrompt(event);
-    };
+      console.log("👍", "beforeinstallprompt", event);
+      // Stash the event so it can be triggered later.
+      window.deferredPrompt = event;
+      // Remove the 'hidden' class from the install button container.
+      setIsReadyForInstall(true);
+    });
 
-    const appInstalledHandler = () => {
-      // La aplicación se ha instalado, actualiza el estado para ocultar el botón de instalación
-      setIsInstalled(true);
-    };
-
-    // Verificar si la PWA ya está instalada en el dispositivo
-    if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) {
-      setIsInstalled(true);
-    }
-
-    window.addEventListener('beforeinstallprompt', beforeInstallPromptHandler);
-    window.addEventListener('appinstalled', appInstalledHandler);
-
-    return () => {
-      window.removeEventListener('beforeinstallprompt', beforeInstallPromptHandler);
-      window.removeEventListener('appinstalled', appInstalledHandler);
-    };
+    // Listener para el evento 'appinstalled'
+    window.addEventListener('appinstalled', () => {
+      // La aplicación se ha instalado, ocultar el botón
+      setIsReadyForInstall(false);
+    });
   }, []);
 
-  const mostrarMensajeInstalacion = () => {
-    if (deferredPrompt) {
-      // Mostrar el mensaje de instalación
-      deferredPrompt.prompt();
-      // Esperar a que el usuario responda a la solicitud de instalación
-      deferredPrompt.userChoice.then((choiceResult) => {
-        if (choiceResult.outcome === 'accepted') {
-          console.log('El usuario ha aceptado la instalación');
-          setIsInstalled(true); // Actualizar el estado para ocultar el botón de instalación
-        } else {
-          console.log('El usuario ha cancelado la instalación');
-        }
-        // Limpiar el objeto deferredPrompt
-        setDeferredPrompt(null);
-      });
+  async function downloadApp() {
+    console.log("👍", "butInstall-clicked");
+    const promptEvent = window.deferredPrompt;
+    if (!promptEvent) {
+      // The deferred prompt isn't available.
+      console.log("oops, no prompt event guardado en window");
+      return;
     }
-  };
+    // Show the install prompt.
+    promptEvent.prompt();
+    // Log the result
+    const result = await promptEvent.userChoice;
+    console.log("👍", "userChoice", result);
+    // Reset the deferred prompt variable, since
+    // prompt() can only be called once.
+    window.deferredPrompt = null;
+    // Hide the install button.
+    setIsReadyForInstall(false);
+  }
 
   return (
     <div id="container-menu" className="container"> {/* Contenedor principal */}
@@ -71,16 +63,13 @@ function MenuQR() {
         ))}
       </div>
 
-
-     {!isInstalled && <div id="sombra">
-      <h4 id="verde">Haga clic en el botón para descargar la página como una App</h4>
-      <button className="button" id="botonInstalarPWA" onClick={mostrarMensajeInstalacion}>Instalar App </button>
-
-     </div>}
+      {isReadyForInstall && <div id="sombra">
+        <h4 id="verde">Haga clic en el botón si desea descargar la página como una App</h4>
+        <button className="button" id="botonInstalarPWA" onClick={downloadApp}>Instalar App </button>
+      </div>}
 
     </div>
   );
 }
 
 export default MenuQR;
-
