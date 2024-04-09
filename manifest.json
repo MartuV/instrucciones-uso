@@ -24,7 +24,7 @@
   "orientation": "portrait",
   "prefer_related_application": false,
   "scope": "/",
-  "start_url": "/",
+  "start_url": ".",
   "display": "minimal-ui", 
   "theme_color": "#000000",
   "background_color": "#dcdcdc"
