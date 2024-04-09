@@ -6,23 +6,26 @@ import Jarabes from './componentes/Jarabes';
 import Aerosoles from './componentes/Aerosoles';
 import Navbar from './componentes/Navbar';
 import Footer from './componentes/Footer';
+import { AppProvider } from './hooks/AppContext'; 
 
-function App() {
-  return (
-    <Router basename="/instrucciones-uso">
-      <Navbar/>
-      <Routes>
-        {/* Página principal */}
-        <Route path="/" element={<MenuQR />} />
-        {/* Página de Jarabes */}
-        <Route path="/jarabes" element={<Jarabes />} />
-        {/* Página de Aerosoles */}
-        <Route path="/aerosoles" element={<Aerosoles />} />
-      </Routes>
-      <Footer/>
-    </Router>
-  );
-}
-
+  function App() {
+    return (
+      <Router basename="/instrucciones-uso">
+        <Navbar/>
+        <AppProvider> {/* Envuelve todos los componentes dentro de AppProvider */}
+          <Routes>
+            {/* Página principal */}
+            <Route path="/" element={<MenuQR />} />
+            {/* Página de Jarabes */}
+            <Route path="/jarabes" element={<Jarabes />} />
+            {/* Página de Aerosoles */}
+            <Route path="/aerosoles" element={<Aerosoles />} />
+          </Routes>
+        </AppProvider>
+        <Footer/>
+      </Router>
+    );
+  }
+  
 
 export default App;
