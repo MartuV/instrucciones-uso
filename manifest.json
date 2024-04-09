@@ -1,6 +1,8 @@
-{
-  "short_name": "Uso Medicamentos",
-  "name": "Farmacia",
+{ "background_color": "#dcdcdc",
+  "categories": ["health", "medical"],
+  "descrption": "PWA con instrucciones de uso de medicamentos para padres, por ejemplo como se reconstituyen correctamente los Antibióticos Jarabe - Polvo para Reconstituir Vía Oral",
+  "dir": "ltr",
+  "display": "minimal-ui", 
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,11 +23,13 @@
       "purpose": "any"
     }
   ],
+  "lang": "es-AR",
+  "name": "Farmacia",
   "orientation": "portrait",
+  "short_name": "Uso Medicamentos",
   "prefer_related_application": false,
   "scope": "/",
   "start_url": ".",
-  "display": "minimal-ui", 
-  "theme_color": "#000000",
-  "background_color": "#dcdcdc"
+  "theme_color": "#000000"
+  
 }
