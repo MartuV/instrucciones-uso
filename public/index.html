@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -9,9 +9,12 @@
 
     <meta
       name="description"
-      content="Descargar página como App"
+      content="Web site y PWA para Instrucciones de Uso de Medicamentos"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <meta name="apple-mobile-web-app-title" content="Instrucciones de Uso Mediamentos" />
+    
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -30,25 +33,23 @@
     -->
     <title>Instrucciones de Uso Mediamentos</title>
 
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-W5LPXHJ8');</script>
-  <!-- End Google Tag Manager -->
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YYWT6N2KDC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YYWT6N2KDC');
+    </script>
+
   </head>
 
   <body>
-
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W5LPXHJ8"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
     <noscript>Necesitas habilitar JavaScript para ejecutar esta aplicación.</noscript>
    
-     <div id="root"></div>
+    <div id="root"></div>
   <!-- 
       Aquí se cargará tu aplicación React. Asegúrate de que el div 
       con el ID "root" esté presente para que React pueda renderizar 
