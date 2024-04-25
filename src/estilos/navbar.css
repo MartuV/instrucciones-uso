@@ -27,8 +27,8 @@
 }
 
 .logo {
-    width: 40px; /* Reducimos el ancho del logo */
-    height: 60px; /* Fijamos la altura del logo */
+    width: 50px; /* Reducimos el ancho del logo */
+    height: 50px; /* Fijamos la altura del logo */
     object-fit: contain; /* Ajustamos la imagen dentro del contenedor */
     border-radius: 10px; /* Opcional: aplicamos un borde redondeado al logo */
     margin: 5px auto;
@@ -53,7 +53,7 @@
 
 
     .logo {
-        width: 50px; /* Aumentamos el tamaño del logo */
+        width: 75px; /* Aumentamos el tamaño del logo */
         height: 75px; /* Ajustamos la altura del logo */
         
     }

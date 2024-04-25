@@ -7,9 +7,10 @@ function Footer() {
     return (
         <footer className="footer">
             <div id="footer-content">
-                <p>Información Medicamentos: Nombre.</p>
-                <p>Desarrollo Web: Tu nombre.</p> 
-                <p>Colaboración: Mi compa@era de guardia.</p> 
+                <p>Información Medicamentos: Farm. Milcíades Bogado.</p>
+                <p>Desarrollo Web: Farm.Marta Victoria Serrano.</p> 
+                <p>Colaboración: Farm. María Fernanda Ceballo.</p> 
+                <p>Agradecimiento: Farm. Karina Gonella.</p>
                 
                 <p>Bibliografía: Modo de uso de aerocámaras con máscara facial - Sociedad Argentina de Pediatría; Prospecto AeroChamber Plus Flow-Vu.</p> 
                 <div> 
@@ -20,12 +21,13 @@ function Footer() {
                     <a href="https://www.flaticon.es/iconos-gratis/sentado" title="sentado iconos"> Muhammad_Usman</a>,
                     <a href="https://www.flaticon.es/autores/payungkead" title="Payungkead"> Payungkead</a>,
                     <a href="https://www.flaticon.es/iconos-gratis/inhalador" title="inhalador iconos"> bsd </a>
-                    from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es'</a>
+                    from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es'.</a>
                 </div>
  
             </div>
             <div id="footer-year">
-                <p>&copy; {year}</p>
+                <p>&copy; 2024 División Farmacia Hospital de Niños Dr. Ricardo Gutierréz</p>
+                <p></p>
             </div>
            
         </footer>
