@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/instrucciones-uso/static/css/main.bd03b7ae.css",
-    "main.js": "/instrucciones-uso/static/js/main.4d1e75a6.js",
+    "main.css": "/instrucciones-uso/static/css/main.44e94e71.css",
+    "main.js": "/instrucciones-uso/static/js/main.e0830e4e.js",
+    "static/media/logofarma.png": "/instrucciones-uso/static/media/logofarma.e9d9f3e0acea16f81d43.png",
     "static/media/agitar.png": "/instrucciones-uso/static/media/agitar.c75b9c565495fa737faf.png",
     "static/media/destapar.png": "/instrucciones-uso/static/media/destapar.35084d42a3c95e3235d7.png",
     "static/media/mascara.png": "/instrucciones-uso/static/media/mascara.892dadf12066023bea19.png",
@@ -20,11 +21,11 @@
     "static/media/jarabe_inicial.png": "/instrucciones-uso/static/media/jarabe_inicial.87ed4ece5942f587c935.png",
     "static/media/aerocamara.png": "/instrucciones-uso/static/media/aerocamara.b770436de0db31a9e47d.png",
     "index.html": "/instrucciones-uso/index.html",
-    "main.bd03b7ae.css.map": "/instrucciones-uso/static/css/main.bd03b7ae.css.map",
-    "main.4d1e75a6.js.map": "/instrucciones-uso/static/js/main.4d1e75a6.js.map"
+    "main.44e94e71.css.map": "/instrucciones-uso/static/css/main.44e94e71.css.map",
+    "main.e0830e4e.js.map": "/instrucciones-uso/static/js/main.e0830e4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd03b7ae.css",
-    "static/js/main.4d1e75a6.js"
+    "static/css/main.44e94e71.css",
+    "static/js/main.e0830e4e.js"
   ]
 }
