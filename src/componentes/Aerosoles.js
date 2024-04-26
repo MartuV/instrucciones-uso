@@ -62,30 +62,30 @@ function Aerosoles() {
 
                     <p><strong id="aling-izq">Paso 11:</strong> 🚫👶 Guardar el aerosol y la aerocámara en un lugar fresco y seco y alejado del alcance de los niños.</p>
                     <br/>
-                    <br/>
-
+                    
                     <p className="important">
-                    <strong id="manito">📅 ¿Cuántos tiempo puedo usar el Aerosol garantizando que tenga Medicamento? </strong> 
+                    <br/>    
+                    <strong id="manito">📅 ¿Cuánto tiempo puedo usar el Aerosol garantizando que tenga Medicamento? </strong> 
                     <br/>
-                    <strong>Con el Aerosol se pueden seguir haciendo disparos aunque ya no contenga Medicamento, se siguen expulsando solo excipientes. Entonces: </strong> 
+                    <strong id="azul">Con el Aerosol se pueden seguir haciendo disparos aunque ya no contenga Medicamento, se siguen expulsando solo excipientes. Entonces: </strong> 
                     <br/>
                     <br/> 
-                    <strong>1. </strong><strong id="azul">Anote la fecha</strong> que comienza a usar el aerosol.
+                    <strong>1. </strong><strong >Anote la fecha</strong> que comienza a usar el aerosol.
                     <br/>
                     <br/>
-                    <strong>2. </strong>Cuente la <strong id="azul">cantidad de disparos que usa en un día</strong>, por ejemplo 4.
+                    <strong>2. </strong>Cuente la <strong >cantidad de disparos que usa en un día</strong>, por ejemplo 4.
                     <br/>
                     <br/>
-                    <strong>3. </strong>Mire en la etiqueta <strong id="azul">cuantas dosis tiene el aerosol</strong>, normalmente  200.
+                    <strong>3. </strong>Mire en la etiqueta <strong >cuantas dosis tiene el aerosol</strong>, normalmente  200.
                     <br/>
                     <br/>
-                    <strong>4. </strong>Divida <strong id="azul">la cantidad total de dosis del aerosol entre los disparos que usa en un día</strong> (200 / 4).
+                    <strong>4. </strong>Divida <strong >la cantidad total de dosis del aerosol entre los disparos que usa en un día</strong> (200 / 4).
                     <br/>
                     <br/>
-                    <strong>5. </strong>Esto dará una <strong id="azul">estimación de cuántos días durará el aerosol con medicamento después de comenzar a usarlo</strong>, en el ejemplo alrededor de 50 días.
+                    <strong>5. </strong>Esto dará una <strong >estimación de cuántos días durará el aerosol con medicamento después de comenzar a usarlo</strong>, en el ejemplo alrededor de 50 días.
                     <br/>
                     <br/>
-                    <strong>6. </strong>Si no utiliza el aerosol regularmente, es importante <strong id="azul">anotar los disparos realizados cada vez que lo usa</strong> para saber cuándo necesitará un reemplazo.
+                    <strong>6. </strong>Si no utiliza el aerosol regularmente, es importante <strong >anotar los disparos realizados cada vez que lo usa</strong> para saber cuándo necesitará un reemplazo.
 
                     <br/>
                     <br/>
