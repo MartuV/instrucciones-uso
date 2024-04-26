@@ -37,7 +37,7 @@ function Aerosoles() {
                 <div className="instructions-content">
                     <p><strong id="aling-izq">Paso 1:</strong> <img src={destapar} alt="destapar" className="instruction-icon"/>Retire la tapa de la boquilla del aerosol.</p>
 
-                    <p><strong id="aling-izq">Paso 2:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={inhaladorParado} alt="inhalador parado" className="instruction-icon" /> Agitar el aerosol enérgicamente por 10 segundos.</p>
+                    <p><strong id="aling-izq">Paso 2:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={inhaladorParado} alt="inhalador parado" className="instruction-icon" /><strong id="azul">Agitar el aerosol enérgicamente por 10 segundos</strong>.⚠️ Si usa por primera vez el aerosol o han pasado más de 7 días sin usarlo, después de agitarlo realice un disparo de prueba al aire para asegurar su funcionamiento.</p>
 
                     <p><strong id="aling-izq">Paso 3:</strong> <img src={aerosol_aerocamara} alt="aerosol_aerocamara" className="instruction-icon2" /> Con el aerosol hacia arriba, inserte la boquilla del aerosol en la aerocámara.</p>
 
@@ -62,6 +62,36 @@ function Aerosoles() {
 
                     <p><strong id="aling-izq">Paso 11:</strong> 🚫👶 Guardar el aerosol y la aerocámara en un lugar fresco y seco y alejado del alcance de los niños.</p>
                     <br/>
+                    <br/>
+
+                    <p className="important">
+                    <strong id="manito">📅 ¿Cuántos tiempo puedo usar el Aerosol garantizando que tenga Medicamento? </strong> 
+                    <br/>
+                    <strong>Con el Aerosol se pueden seguir haciendo disparos aunque ya no contenga Medicamento, se siguen expulsando solo excipientes. Entonces: </strong> 
+                    <br/>
+                    <br/> 
+                    <strong>1. </strong><strong id="azul">Anote la fecha</strong> que comienza a usar el aerosol.
+                    <br/>
+                    <br/>
+                    <strong>2. </strong>Cuente la <strong id="azul">cantidad de disparos que usa en un día</strong>, por ejemplo 4.
+                    <br/>
+                    <br/>
+                    <strong>3. </strong>Mire en la etiqueta <strong id="azul">cuantas dosis tiene el aerosol</strong>, normalmente  200.
+                    <br/>
+                    <br/>
+                    <strong>4. </strong>Divida <strong id="azul">la cantidad total de dosis del aerosol entre los disparos que usa en un día</strong> (200 / 4).
+                    <br/>
+                    <br/>
+                    <strong>5. </strong>Esto dará una <strong id="azul">estimación de cuántos días durará el aerosol con medicamento después de comenzar a usarlo</strong>, en el ejemplo alrededor de 50 días.
+                    <br/>
+                    <br/>
+                    <strong>6. </strong>Si no utiliza el aerosol regularmente, es importante <strong id="azul">anotar los disparos realizados cada vez que lo usa</strong> para saber cuándo necesitará un reemplazo.
+
+                    <br/>
+                    <br/>
+                    
+                   
+                </p>
  
                     <p className="important">
                     <img src={aerocamara} alt="aerocamara" className="instruction-icon1" />

@@ -12,7 +12,11 @@ function Footer() {
                 <p>Colaboración: Farm. María Fernanda Ceballo.</p> 
                 <p>Agradecimiento: Farm. Karina Gonella.</p>
                 
-                <p>Bibliografía: Modo de uso de aerocámaras con máscara facial - Sociedad Argentina de Pediatría; Prospecto AeroChamber Plus Flow-Vu.</p> 
+                <p>Bibliografía: Modo de uso de aerocámaras con máscara facial - Sociedad Argentina de Pediatría; 
+                <br/>
+                Preparación de medicamentos por vía oral Importancia del agua utilizada - Dra. Viviana Bologna, Farm. María Beatriz Cardoso;
+                <br/>
+                Prospecto AeroChamber Plus Flow-Vu. </p>
                 <div> 
                 Iconos: <a href="https://www.flaticon.es/autores/eucalyp" title="Eucalyp"> Eucalyp</a>,
                     <a href="https://www.flaticon.es/autores/freepik" title="Freepik"> Freepik</a>,
