@@ -8,7 +8,7 @@ function Footer() {
         <footer className="footer">
             <div id="footer-content">
                 <p>Información Medicamentos: Farm. Milcíades Bogado.</p>
-                <p>Desarrollo Web: Farm.Marta Victoria Serrano.</p> 
+                <p>Desarrollo Web: Farm. Marta Victoria Serrano.</p> 
                 <p>Colaboración: Farm. María Fernanda Ceballo.</p> 
                 <p>Agradecimiento: Farm. Karina Gonella.</p>
                 
