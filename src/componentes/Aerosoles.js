@@ -35,9 +35,9 @@ function Aerosoles() {
             <div id="container-instrucciones" className="instrucciones">   
                 <h2 id="titulo-instrucciones">Instrucciones de Uso: Aerosoles y Aerocámaras</h2>
                 <div className="instructions-content">
-                    <p><strong id="aling-izq">Paso 1:</strong> <img src={destapar} alt="destapar" className="instruction-icon"/>Retire la tapa de la boquilla del aerosol.</p>
+                    <p><strong id="aling-izq">Paso 1:</strong> <img src={destapar} alt="destapar" className="instruction-icon"/>Retire la tapa de la boquilla del aerosol.⚠️ Si usa por primera vez el aerosol o han pasado más de 7 días sin usarlo, Agite el aerosol y realice un disparo de prueba al aire para asegurar su funcionamiento.</p>
 
-                    <p><strong id="aling-izq">Paso 2:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={inhaladorParado} alt="inhalador parado" className="instruction-icon" /><strong id="azul">Agitar el aerosol enérgicamente por 10 segundos</strong>.⚠️ Si usa por primera vez el aerosol o han pasado más de 7 días sin usarlo, después de agitarlo realice un disparo de prueba al aire para asegurar su funcionamiento.</p>
+                    <p><strong id="aling-izq">Paso 2:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /><img src={inhaladorParado} alt="inhalador parado" className="instruction-icon" /><strong id="azul">Agitar el aerosol enérgicamente por 10 segundos</strong>.</p>
 
                     <p><strong id="aling-izq">Paso 3:</strong> <img src={aerosol_aerocamara} alt="aerosol_aerocamara" className="instruction-icon2" /> Con el aerosol hacia arriba, inserte la boquilla del aerosol en la aerocámara.</p>
 
@@ -79,6 +79,7 @@ function Aerosoles() {
                     <strong>3. </strong>Mire en la etiqueta <strong >cuantas dosis tiene el aerosol</strong>, normalmente  200.
                     <br/>
                     <br/>
+    
                     <strong>4. </strong>Divida <strong >la cantidad total de dosis del aerosol entre los disparos que usa en un día</strong> (200 / 4).
                     <br/>
                     <br/>
