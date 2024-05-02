@@ -46,9 +46,9 @@ function Jarabes() {
                     🔔 <strong id="azul">Use agua potable a temperatura ambiente</strong>. 
                     <br/>
                     <br/>
-                    En caso de no tener, emplee el agua que utiliza habitualmente para el consumo. Se recomienda el uso de agua hervida (por no más de 5 minutos) y enfriada a temperatura ambiente antes que agua embotellada. Si no tiene otra opción que utilizar agua embotellada, asegúrese de que tenga bajo contenido de sodio y electrolitos, ya que estos pueden afectar al medicamento. 
+                    En caso de no tener, emplee el agua que utiliza habitualmente para el consumo. Se recomienda el uso de agua hervida (por no más de 5 minutos) y enfriada a temperatura ambiente antes que agua embotellada. Si no tiene otra opción que usar agua embotellada, asegúrese de que tenga bajo contenido de sodio y electrolitos, ya que estos pueden alterar al medicamento. 
                     <br/>
-                    <br />🚫 <strong id="azul">NO usar agua caliente o tibia </strong>porque puede dañar al antibiótico. 
+                    <br />🚫 <strong id="azul">NO usar agua caliente o tibia</strong> porque puede dañar al antibiótico. 
                     <br />
                     </p>
                     <p><strong id="aling-izq">Paso 3:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /> <strong>Agite enérgicamente</strong> para que<strong id="azul"> todo el polvo se mezcle completamente con el agua</strong>. Asegúrese que no quede en el fondo polvo sin mezclar.
