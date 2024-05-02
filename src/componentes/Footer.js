@@ -10,7 +10,7 @@ function Footer() {
                 <p>Información Medicamentos: Farm. Milcíades Bogado.</p>
                 <p>Desarrollo Web: Farm. Marta Victoria Serrano.</p> 
                 <p>Colaboración: Farm. María Fernanda Ceballo.</p> 
-                <p>Agradecimiento: Farm. Karina Gonella.</p>
+                <p>Agradecimientos: Farm. Karina Gonella - Farm. Alicia Capelli.</p>
                 
                 <p>Bibliografía: Modo de uso de aerocámaras con máscara facial - Sociedad Argentina de Pediatría; 
                 <br/>

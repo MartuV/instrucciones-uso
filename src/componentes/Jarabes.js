@@ -43,9 +43,14 @@ function Jarabes() {
                     <p><strong id="aling-izq">Paso 2:</strong> <img src={grifo} alt="grifo" className="instruction-icon" /><img src={marca} alt="llenar hasta la marca" className="instruction-icon3" /> Abra el frasco y <strong>Agregue agua</strong> hasta que el <strong id="azul">nivel del agua esté en la marca indicada</strong> en el envase.
                     <br />
                     <br/>
-                    🔔 <strong id="azul">Use agua potable a temperatura ambiente</strong>. En caso de no tener, use el agua que utiliza habitualmente para consumo, ya sea hervida y enfriada o embotellada (preferentemente de mesa, bidón o con bajo contenido de sodio y electrolitos). 🚫 <strong id="azul">NO usar agua caliente o tibia </strong>porque puede descomponer e inactivar el antibiótico. 
+                    🔔 <strong id="azul">Use agua potable a temperatura ambiente</strong>. 
+                    <br/>
+                    <br/>
+                    En caso de no tener, emplee el agua que utiliza habitualmente para el consumo. Se recomienda el uso de agua hervida (por no más de 5 minutos) y enfriada a temperatura ambiente antes que agua embotellada. Si no tiene otra opción que utilizar agua embotellada, asegúrese de que tenga bajo contenido de sodio y electrolitos, ya que estos pueden afectar al medicamento. 
+                    <br/>
+                    <br />🚫 <strong id="azul">NO usar agua caliente o tibia </strong>porque puede dañar al antibiótico. 
+                    <br />
                     </p>
-
                     <p><strong id="aling-izq">Paso 3:</strong> <img src={agitar} alt="agitar" className="instruction-icon" /> <strong>Agite enérgicamente</strong> para que<strong id="azul"> todo el polvo se mezcle completamente con el agua</strong>. Asegúrese que no quede en el fondo polvo sin mezclar.
                     </p>
                    
