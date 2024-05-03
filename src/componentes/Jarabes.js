@@ -46,7 +46,7 @@ function Jarabes() {
                     🔔 <strong id="azul">Use agua potable a temperatura ambiente</strong>. 
                     <br/>
                     <br/>
-                    En caso de no tener, emplee el agua que utiliza habitualmente para el consumo. Se recomienda el uso de agua hervida (por no más de 5 minutos) y enfriada a temperatura ambiente antes que agua embotellada. Si no tiene otra opción que usar agua embotellada, asegúrese de que tenga bajo contenido de sodio y electrolitos, ya que estos pueden alterar al medicamento. 
+                    <strong id="azul">En caso de no tener</strong>, emplee el agua que utiliza habitualmente para el consumo. Se recomienda el uso de agua hervida (por no más de 5 minutos) y enfriada a temperatura ambiente antes que agua embotellada. Si no tiene otra opción que usar agua embotellada, asegúrese de que tenga bajo contenido de sodio y electrolitos, ya que estos pueden alterar al medicamento. 
                     <br/>
                     <br />🚫 <strong id="azul">NO usar agua caliente o tibia</strong> porque puede dañar al antibiótico. 
                     <br />
