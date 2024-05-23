@@ -10,6 +10,13 @@
       "type": "image/x-icon",
       "purpose": "any"
     },
+
+    {
+      "src": "logo96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "any"
+    },
     {
       "src": "logo192.png",
       "type": "image/png",
