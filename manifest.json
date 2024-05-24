@@ -23,6 +23,14 @@
       "sizes": "192x192",
       "purpose": "any"
     },
+
+    {
+      "src": "logo256.png",
+      "type": "image/png",
+      "sizes": "256x256",
+      "purpose": "any"
+    },
+
     {
       "src": "logo512.png",
       "type": "image/png",
