@@ -32,8 +32,10 @@ function Footer() {
                 </div>
             </div>
             <div id="footer-year">
-                <p>&copy; 2024 División Farmacia Hospital de Niños Dr. Ricardo Gutiérrez</p>
+                <p>&copy; 2024 División Farmacia Hospital de Niños Dr. Ricardo Gutiérrez. Todos los derechos reservados.</p>
+                <p>Página Web registrada en la Dirección Nacional del Derecho de Autor (DNDA) de la República Argentina.</p>
             </div>
+                
         </footer>
 
     );
