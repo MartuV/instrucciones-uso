@@ -1,13 +1,13 @@
+
 .footer {
-  background-color: #c9c6cc; /* Color de fondo del pie de página */
+  background-color: #7e7d7d; /* Color de fondo gris */
   color: white; /* Color del texto */
   padding: 10px 20px; /* Espaciado interior del pie de página */
   display: flex;
   flex-direction: column; /* Coloca los elementos en columna */
   align-items: center; /* Alinea los elementos horizontalmente */
-  box-shadow: inset -5px 0px 100px rgba(0, 0, 0, 0.7); 
+  box-shadow: inset -5px 0px 100px rgba(0, 0, 0, 0.7); /* Sombra interna */
   margin-top: 20px;
-  
 }
 
 #footer-content {
