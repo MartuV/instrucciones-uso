@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/instrucciones-uso/static/css/main.ca767d04.css",
+    "main.css": "/instrucciones-uso/static/css/main.05c2311a.css",
     "main.js": "/instrucciones-uso/static/js/main.555d8227.js",
     "static/media/logofarma.png": "/instrucciones-uso/static/media/logofarma.e9d9f3e0acea16f81d43.png",
     "static/media/agitar.png": "/instrucciones-uso/static/media/agitar.c75b9c565495fa737faf.png",
@@ -21,11 +21,11 @@
     "static/media/jarabe_inicial.png": "/instrucciones-uso/static/media/jarabe_inicial.87ed4ece5942f587c935.png",
     "static/media/aerocamara.png": "/instrucciones-uso/static/media/aerocamara.b770436de0db31a9e47d.png",
     "index.html": "/instrucciones-uso/index.html",
-    "main.ca767d04.css.map": "/instrucciones-uso/static/css/main.ca767d04.css.map",
+    "main.05c2311a.css.map": "/instrucciones-uso/static/css/main.05c2311a.css.map",
     "main.555d8227.js.map": "/instrucciones-uso/static/js/main.555d8227.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca767d04.css",
+    "static/css/main.05c2311a.css",
     "static/js/main.555d8227.js"
   ]
 }
