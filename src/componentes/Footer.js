@@ -1,17 +1,27 @@
 import React from 'react';
 import '../estilos/footer.css'; // Importa los estilos CSS
+import avalado from '../imagenes/selloSitioWeb.png'; 
+import logoComite from '../imagenes/calidad.png'; 
 
 function Footer() {
     const year = new Date().getFullYear(); // Obtiene el año actual
 
     return (
-        <footer className="footer">
+       
+    <footer className="footer">
+           
+
+            <div id="aval-container">
+                 <img src={avalado} alt="SelloAvalado" className="aval avalado" />
+                <img src={logoComite} alt="Logo" className="aval logoComite" />
+            </div>
+
             <div id="footer-content">
                 <p>Información Medicamentos: Farm. Milcíades Bogado.</p>
                 <p>Desarrollo Web: Farm. Marta Victoria Serrano.</p> 
                 <p>Colaboración: Farm. María Fernanda Ceballo.</p> 
                 <p>Agradecimientos: Farm. Karina Gonella - Farm. Alicia Capelli.</p>
-                <p>Logo División Farmacia: Daniela Felt.</p>
+                <p>Logo División Farmacia: Daniela Feld.</p>
                 
                 <p>Bibliografía:</p>
                 <p>
@@ -31,6 +41,7 @@ function Footer() {
                     from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a>.
                 </div>
             </div>
+
             <div id="footer-year">
                 <p> </p>
                 <p>&copy; 2024 División Farmacia Hospital de Niños Dr. Ricardo Gutiérrez.

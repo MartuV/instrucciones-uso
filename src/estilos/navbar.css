@@ -16,10 +16,7 @@
     
 }
 
-.navigation-bar {
 
-    display: none;
-}
 
 .logo-container {
     display: flex; /* Utilizamos flexbox para organizar el logo y el texto */

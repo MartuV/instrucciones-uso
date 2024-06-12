@@ -5,13 +5,39 @@
   display: flex;
   flex-direction: column; /* Coloca los elementos en columna */
   align-items: center; /* Alinea los elementos horizontalmente */
-  box-shadow: inset -5px 0px 100px rgba(0, 0, 0, 0.7); /* Sombra interna */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra interna ajustada *//* Sombra interna */
   margin-top: 20px;
+}
+
+#aval-container {
+  display: flex; /* Utiliza flexbox para alinear los elementos */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+  width: 100%; /* Asegura que el contenedor use el 100% del ancho disponible */
+}
+
+.aval {
+  width: 30%; /* Ancho en porcentaje */
+  height: 30%; /* Altura en porcentaje */
+  object-fit: contain; /* Ajustamos la imagen dentro del contenedor */
+  border-radius: 10px; /* Opcional: aplicamos un borde redondeado al logo */
+  
+}
+
+.avalado {
+  margin-left: 14%; /* Añadimos margen a la derecha para separar las imágenes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75); /* Añadimos una sombra exterior */
+}
+
+.logoComite {
+  margin-right: 14%; /* Añadimos margen a la izquierda para separar las imágenes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
 }
 
 #footer-content {
   text-align: left; /* Alinea el texto a la izquierda */
-  margin-bottom: 0px; /* Espacio entre el contenido y el año */
+  margin-bottom: 15px; /* Espacio entre el contenido y el año */
+  margin-top: 5px;
   color: white;
   
 }
@@ -28,4 +54,29 @@
 #footer-year {
   text-align: center; /* Centra el año */
   color: white;
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+  .aval {
+    width: 10%; /* Ancho en porcentaje */
+    height: 10%; /* Altura en porcentaje */
+    
+  }
+  
+  .avalado {
+    margin-left: 35%; /* Añadimos margen a la derecha para separar las imágenes */
+  }
+  
+  .logoComite {
+    margin-right: 35%; /* Añadimos margen a la izquierda para separar las imágenes */
+  }
+
+  #footer-content {
+    margin-top: 15px;
+    
+    
+  }
+
 }

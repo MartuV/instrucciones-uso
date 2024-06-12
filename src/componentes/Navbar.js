@@ -14,9 +14,6 @@ function Navbar() {
     return (
         <nav className="navbar">
 
-            <div className="navigation-bar">
-            <button onClick={goBack}>{'\u2190\uFE0E'}</button>
-            </div>
             <div className="logo-container">
                 <img src={logoNavbar} alt="Logo" className="logo" />
             </div>
@@ -24,8 +21,7 @@ function Navbar() {
                 <h1 className="title">Uso Medicamentos</h1>
             </div>
             
-           
-
+        
         </nav>
     );
 }
