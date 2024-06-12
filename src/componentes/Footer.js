@@ -45,7 +45,8 @@ function Footer() {
             <div id="footer-year">
                 <p> </p>
                 <p>&copy; 2024 División Farmacia Hospital de Niños Dr. Ricardo Gutiérrez.
-                <br/>
+                <br/> 
+                <br/> 
                 Página Web registrada en la Dirección Nacional del Derecho de Autor (DNDA) de la República Argentina.</p>
             </div>
                 
