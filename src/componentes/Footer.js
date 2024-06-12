@@ -1,7 +1,7 @@
 import React from 'react';
 import '../estilos/footer.css'; // Importa los estilos CSS
-import avalado from '../imagenes/selloSitioWeb.png'; 
-import logoComite from '../imagenes/calidad.png'; 
+import avalado from '../imagenes/selloSitioWebArial.png'; 
+import logoComite from '../imagenes/calidad3.png'; 
 
 function Footer() {
     const year = new Date().getFullYear(); // Obtiene el año actual
