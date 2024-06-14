@@ -10,10 +10,10 @@ import { AppProvider } from './hooks/AppContext';
 
   function App() {
     return (
-      <Router>
+      <Router basename="/instrucciones-uso">
         <Navbar/>
         <AppProvider> {/* Envuelve todos los componentes dentro de AppProvider */}
-          <Routes basename="/instrucciones-uso">
+          <Routes>
             {/* Página principal */}
             <Route path="/" element={<MenuQR />} />
             {/* Página de Jarabes */}
