@@ -20,7 +20,7 @@ function Footer() {
                 <p>Información Medicamentos: Farm. Milcíades Bogado.</p>
                 <p>Desarrollo Web: Farm. Marta Victoria Serrano.</p> 
                 <p>Colaboración: Farm. María Fernanda Ceballo.</p> 
-                <p>Agradecimientos: Farm. Karina Gonella - Farm. Alicia Capelli.</p>
+                <p>Agradecimientos: Farm. Karina Gonnella - Farm. Alicia Capelli.</p>
                 <p>Logo División Farmacia: Daniela Feld.</p>
                 
                 <p>Bibliografía:</p>
