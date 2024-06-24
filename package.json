@@ -2,7 +2,7 @@
   "name": "instrucciones-uso",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://martuv.github.io/instrucciones-uso",
+  "homepage": "http://usodemedicamentos.farmaguti.com.ar",
   "dependencies": {
     "@react-pdf/renderer": "^3.4.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -25,7 +25,7 @@
     "workbox-strategies": "^7.0.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo usodemedicamentos.farmaguti.com.ar > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
