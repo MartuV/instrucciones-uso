@@ -1,6 +1,6 @@
 { "background_color": "#FFFFFF",
   "categories": ["health", "medical"],
-  "descrption": "PWA con instrucciones de uso de medicamentos para padres, por ejemplo como se reconstituyen correctamente los Antibióticos Jarabe - Polvo para Reconstituir Vía Oral",
+  "descrption": "Instrucciones de uso de medicamentos: cómo reconstituir jarabes antibióticos y usar aerosoles - Farmacia del Hospital de Niños Dr. Ricardo Gutiérrez (HNRG). Guía para padres.",
   "dir": "ltr",
   "display": "minimal-ui", 
   "icons": [
@@ -54,7 +54,7 @@
     }
   ],
   "lang": "es-AR",
-  "name": "Farmacia",
+  "name": "Instrucciones de Uso Medicamentos - Farmacia HNRG",
   "orientation": "portrait",
   "short_name": "Uso Medicamentos",
   "prefer_related_application": false,
