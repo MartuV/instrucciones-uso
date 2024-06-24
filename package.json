@@ -2,7 +2,7 @@
   "name": "instrucciones-uso",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://usodemedicamentos.farmaguti.com.ar",
+  "homepage": "https://usodemedicamentos.farmaguti.com.ar",
   "dependencies": {
     "@react-pdf/renderer": "^3.4.0",
     "@testing-library/jest-dom": "^5.17.0",
