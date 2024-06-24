@@ -5,11 +5,6 @@ import '../estilos/navbar.css';
 
 function Navbar() {
 
-   
-        // Función para retroceder en el historial del navegador
-        const goBack = () => {
-          window.history.back();
-        }
 
     return (
         <nav className="navbar">
