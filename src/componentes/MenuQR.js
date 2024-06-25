@@ -16,7 +16,7 @@ function MenuQR() {
   return (
     <div id="container-menu" className="container"> {/* Contenedor principal */}
 
-      <h4>Haga clic en el botón para ver las instrucciones de uso</h4>
+      <h4>Haga Clic en el Botón para Ver las Instrucciones de Uso</h4>
 
       <div className="menuQr"> {/* Contenedor específico del menú QR */}
         {/* Mapear las imágenes QR */}

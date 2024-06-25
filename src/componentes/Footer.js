@@ -25,9 +25,9 @@ function Footer() {
                 
                 <p>Bibliografía:</p>
                 <p>
-                    Modo de uso de aerocámaras con máscara facial - Sociedad Argentina de Pediatría;<br/>
-                    Preparación de medicamentos por vía oral Importancia del agua utilizada - Dra. Viviana Bologna, Farm. María Beatriz Cardoso;<br/>
-                    Prospecto AeroChamber Plus Flow-Vu.
+                    - Modo de uso de aerocámaras con máscara facial - Sociedad Argentina de Pediatría;<br/>
+                    - Preparación de medicamentos por vía oral Importancia del agua utilizada - Dra. Viviana Bologna, Farm. María Beatriz Cardoso;<br/>
+                    - Prospecto AeroChamber Plus Flow-Vu.
                 </p>
                 <div> 
                     Iconos: 
