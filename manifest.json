@@ -1,6 +1,6 @@
 { "background_color": "#FFFFFF",
   "categories": ["health", "medical"],
-  "descrption": "Instrucciones de uso de medicamentos: cómo reconstituir jarabes antibióticos y usar aerosoles - Farmacia del Hospital de Niños Dr. Ricardo Gutiérrez (HNRG). Guía para padres.",
+  "descrption": "Instrucciones de uso de medicamentos: cómo reconstituir jarabes antibióticos y usar aerosoles y aerocámaras. Guía para padres - Farmacia del Hospital de Niños Dr. Ricardo Gutiérrez (HNRG).",
   "dir": "ltr",
   "display": "minimal-ui", 
   "icons": [
@@ -54,7 +54,7 @@
     }
   ],
   "lang": "es-AR",
-  "name": "Instrucciones de Uso Medicamentos - Farmacia HNRG",
+  "name": "Instrucciones de Uso de Medicamentos - Farmacia HNRG",
   "orientation": "portrait",
   "short_name": "Uso Medicamentos",
   "prefer_related_application": false,
