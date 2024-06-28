@@ -12,8 +12,8 @@ function Footer() {
            
 
             <div id="aval-container">
-                 <img src={avalado} alt="SelloAvalado" className="aval avalado" />
-                <img src={logoComite} alt="Logo" className="aval logoComite" />
+                 <img src={avalado} alt="Sello Aval comité calidad y seguridad del paciente del Hospital de Niños Dr. Ricardo Gutiérrez (HNRG) " className="aval avalado" />
+                <img src={logoComite} alt="logotipo comité calidad y seguridad del paciente del Hospital de Niños Dr. Ricardo Gutiérrez (HNRG)" className="aval logoComite" />
             </div>
 
             <div id="footer-content">
@@ -44,7 +44,7 @@ function Footer() {
 
             <div id="footer-year">
                 <p> </p>
-                <p>&copy; 2024 División Farmacia Hospital de Niños Dr. Ricardo Gutiérrez.
+                <p>&copy; 2024 División Farmacia del Hospital de Niños Dr. Ricardo Gutiérrez.
                 <br/> 
                 <br/> 
                 Sitio Web registrado en la Dirección Nacional del Derecho de Autor (DNDA) de la República Argentina.</p>
