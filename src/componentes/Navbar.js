@@ -13,7 +13,7 @@ function Navbar() {
                 <img src={logoNavbar} alt="logotipo de la Farmacia del Hospital de Niños Dr. Ricardo Gutiérrez (HNRG)" className="logo" />
             </div>
             <div className="texto">
-                <h1 className="title">Uso Medicamentos</h1>
+                <h2 className="title">Uso Medicamentos</h2>
             </div>
             
         

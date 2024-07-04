@@ -36,6 +36,11 @@
     margin-left: 8px; /* Reducimos el espacio entre el logo y el texto */
     font-weight: 200; /* Hace que el texto sea más fino */
     font-size: 12px; /* Reducimos aún más el tamaño del texto */
+    
+}
+
+h2.title{
+    color: #fff;
 }
 
 
