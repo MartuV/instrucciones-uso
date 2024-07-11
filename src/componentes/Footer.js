@@ -12,8 +12,8 @@ function Footer() {
            
 
             <div id="aval-container">
-                 <img src={avalado} alt="Sello Aval comité calidad y seguridad del paciente del Hospital de Niños Dr. Ricardo Gutiérrez (HNRG) " className="aval avalado" />
-                <img src={logoComite} alt="logotipo comité calidad y seguridad del paciente del Hospital de Niños Dr. Ricardo Gutiérrez (HNRG)" className="aval logoComite" />
+                 <img src={avalado} alt="Sello Aval comité calidad y seguridad del paciente del Hospital de Niños Dr. Ricardo Gutiérrez (HNRG) | farmaguti" className="aval avalado" />
+                <img src={logoComite} alt="logotipo comité calidad y seguridad del paciente del Hospital de Niños Dr. Ricardo Gutiérrez (HNRG) | farmaguti" className="aval logoComite" />
             </div>
 
             <div id="footer-content">
@@ -29,6 +29,7 @@ function Footer() {
                     - Preparación de medicamentos por vía oral Importancia del agua utilizada - Dra. Viviana Bologna, Farm. María Beatriz Cardoso;<br/>
                     - Prospecto AeroChamber Plus Flow-Vu.
                 </p>
+
                 <div> 
                     Iconos: 
                     <a href="https://www.flaticon.es/autores/eucalyp" title="Eucalyp"> Eucalyp</a> - 
@@ -44,7 +45,7 @@ function Footer() {
 
             <div id="footer-year">
                 <p> </p>
-                <p>&copy; 2024 División Farmacia del Hospital de Niños Dr. Ricardo Gutiérrez.
+                <p>&copy; 2024 División Farmacia del Hospital de Niños Dr. Ricardo Gutiérrez (HNRG) | FarmaGuti.
                 <br/> 
                 <br/> 
                 Sitio Web registrado en la Dirección Nacional del Derecho de Autor (DNDA) de la República Argentina.</p>

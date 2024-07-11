@@ -11,7 +11,7 @@ function Tarjeta({ nombre, grupo, medicamentos, qrImage }) {
 
     return (
         <div className="tarjeta">
-            <img src={require(`../imagenes/${qrImage}`)} alt={`Imagen para ${nombre}`} />
+            <img src={require(`../imagenes/${qrImage}`)} alt={`Farmacia del Hospital de Niños Dr. Ricardo Gutiérrez (HNRG) | farmaguti - ${nombre}`} />
             <div className="text-container">
                 <h2>{grupo}</h2>
                 <h3>{medicamentos}</h3>
