@@ -1,6 +1,4 @@
 // En tu componente JSX
-
-import React, { useState } from 'react';
 import { descargarInstrucciones } from '../funciones/descargarInstrucciones'; 
 import destapar from '../imagenes/destapar.png';
 import agitar from '../imagenes/agitar.png';
@@ -13,23 +11,27 @@ import aerocamara from '../imagenes/aerocamara.png';
 import inhaladorApretado from '../imagenes/inhaladorApretado.png';
 import '../App.css';
 import '../estilos/instrucciones.css';
+import { Helmet } from 'react-helmet';
 
 function Aerosoles() {
-    const [generatingInstruccion, setGeneratingInstruccion] = useState(false);
-
+   
     const handleClick = () => {
-        
-        setTimeout(() => {
-            descargarInstrucciones(("aerosoles"));
-        }, 1000); // Espera 1 segundo antes de llamar a generarPdf
+        descargarInstrucciones(("aerosoles"));
+      
     };
     
     return (
         <div id="container-principal" className="container">
+
+            <Helmet>
+                <title>Aerosoles y Aerocámaras </title>
+                <meta name="description" content="Guia de pasos para usar Aerosoles y Aerocámaras." />
+                </Helmet>
+
             <div className="button-container">  
-                {!generatingInstruccion && (
+                
                     <button id="botonDescargar" className="button" onClick={handleClick}>Descargar Instrucciones de Uso</button>
-                )}
+                
             </div>
     
             <div id="container-instrucciones" className="instrucciones">   

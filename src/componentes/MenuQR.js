@@ -2,7 +2,7 @@ import '../App.css';
 import '../estilos/menuQR.css';
 import  {useAppContext}  from '../hooks/AppContext'; 
 import Tarjeta from './Tarjeta';
-
+import { Helmet } from 'react-helmet';
 
 function MenuQR() {
   
@@ -15,6 +15,11 @@ function MenuQR() {
 
   return (
     <div id="container-menu" className="container"> {/* Contenedor principal */}
+
+    <Helmet>
+    <title>Instrucciones de Uso de Medicamentos - Farmacia HNRG</title>
+    <meta name="description" content="Guía para Padres: Aprende a preparar Jarabes Antibióticos y usar Aerosoles y Aerocámaras - Farmacia del Hospital de Niños Ricardo Gutiérrez (HNRG) | FarmaGuti" />
+    </Helmet>
 
       <h2 className="titulo-menuQr">Haga Clic en el Botón para Ver las Instrucciones de Uso</h2>
 

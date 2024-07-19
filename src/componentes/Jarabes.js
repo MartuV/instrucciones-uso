@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { descargarInstrucciones } from '../funciones/descargarInstrucciones'; 
 import agitar from '../imagenes/agitar.png';
 import jarabeInicial from '../imagenes/jarabe_inicial.png';
@@ -9,25 +8,27 @@ import marca from '../imagenes/marca.png';
 import mesa from '../imagenes/tabla.png';
 import '../App.css';
 import '../estilos/instrucciones.css';
+import { Helmet } from 'react-helmet';
 
 function Jarabes() {
 
-    const [generatingPdf, setGeneratingPdf] = useState(false);
-
     const handleClick = () => {
+        descargarInstrucciones(("jarabes"));
         
-        setTimeout(() => {
-            descargarInstrucciones(("jarabes"));
-        }, 1000); // Espera 1 segundo antes de llamar a generarPdf // Espera 1 segundo antes de llamar a generarPdf
     };
     
     return (
         <div id="container-principal"className="container">
 
+            <Helmet>
+                <title>Jarabes Antibióticos</title>
+                <meta name="description" content="Guia de pasos para preparar y reconstituir Jarabes Antibióticos." />
+                </Helmet>
+
             <div className="button-container">  
-                {!generatingPdf && (
+               
                     <button id="botonDescargar" className="button" onClick={handleClick}>Descargar Instrucciones de Uso</button>
-                )}
+              
             </div>
 
             <div id="container-instrucciones" className="instrucciones">   

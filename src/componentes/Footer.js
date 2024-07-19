@@ -4,8 +4,7 @@ import avalado from '../imagenes/selloSitioWebArial.png';
 import logoComite from '../imagenes/calidad3.png'; 
 
 function Footer() {
-    const year = new Date().getFullYear(); // Obtiene el año actual
-
+  
     return (
        
     <footer className="footer">
